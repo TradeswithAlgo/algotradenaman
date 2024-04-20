@@ -278,14 +278,14 @@ const Header1 = () => {
                   KYC
                 </a>
                 <a
-                  href="https://login.brainautotech.com/login"
+                  href="/contact"
                   className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full 
                 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 active:bg-gray-100 flex justify-center"
                 >
                   Login
                 </a>
                 <a
-                  href="https://login.brainautotech.com/signup"
+                  href="/contact"
                   className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full
                 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 active:bg-gray-100 flex justify-center"
                 >
@@ -307,8 +307,8 @@ const Header1 = () => {
           </button>
         </a>
         <a
-          href="https://login.brainautotech.com/login"
-          target="_blank"
+          href="/contact"
+          target=""
           className="mr-2 font-bold"
         >
           <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]">
@@ -316,8 +316,8 @@ const Header1 = () => {
           </button>
         </a>
         <a
-          href="https://login.brainautotech.com/signup"
-          target="_blank"
+          href="/contact"
+          target=""
           className="font-bold"
         >
           <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh]  font-light rounded-xl text-[13px]">
