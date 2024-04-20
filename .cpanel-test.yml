@@ -1,0 +1,135 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/brainautotech/public_html
+    - >-
+      /bin/tar -xf
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod.tar
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/404.html
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Textonly.png
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/braintechlogo.PNG
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/favicon.ico
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/icon.ico
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/index.html
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/index.txt
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/next.svg
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sidelogoplustext.PNG
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/vercel.svg
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/404
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/_next
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/about
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algo
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algo-services
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/api-bridge
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/auto
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/contact
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/disclaimer
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/image
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/it-services
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/iws-section
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/payment
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/pcs-images
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/popup
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/pricing
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/privacy
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/refund
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sliderimages
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sls-images
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/strategy
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/terms
+      $DEPLOYPATH

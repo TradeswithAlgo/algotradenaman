@@ -1,0 +1,18 @@
+# Use the official Apache image as base
+FROM httpd:latest as base
+
+# Copy your static files into the Apache DocumentRoot directory
+FROM base as build
+WORKDIR /home/app
+COPY ./compiled-prod.tar ./
+RUN /bin/tar -xf compiled-prod.tar
+
+
+FROM base as runner
+
+COPY --from=build /home/app/compiled-prod-code /usr/local/apache2/htdocs/
+# Set ServerName directive to suppress warning messages
+RUN echo "ServerName localhost" >> /usr/local/apache2/conf/httpd.conf
+
+# Expose port 80
+EXPOSE 80
