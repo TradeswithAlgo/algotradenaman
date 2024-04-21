@@ -271,7 +271,7 @@ const Header1 = () => {
               </div>
               <div className="mt-6 flex  items-center gap-2 text-white">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdb5EnJUTeIjEjO9m00XuM9Lro4yk-7XpGCYASQZS4uy4gIBA/viewform"
+                  href="/contact"
                   className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full 
                 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 flex justify-center"
                 >
@@ -298,7 +298,7 @@ const Header1 = () => {
       </Transition>
       <div className="hidden lg:flex lg:gap-[20px] text-white">
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdb5EnJUTeIjEjO9m00XuM9Lro4yk-7XpGCYASQZS4uy4gIBA/viewform"
+          href="/contact"
           target="_blank"
           className="mr-2 font-bold "
         >
