@@ -269,29 +269,6 @@ const Header1 = () => {
                   </div>
                 </nav>
               </div>
-              <div className="mt-6 flex  items-center gap-2 text-white">
-                <a
-                  href="/contact"
-                  className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full 
-                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 flex justify-center"
-                >
-                  KYC
-                </a>
-                <a
-                  href="/contact"
-                  className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full 
-                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 active:bg-gray-100 flex justify-center"
-                >
-                  Login
-                </a>
-                <a
-                  href="/contact"
-                  className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full
-                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 active:bg-gray-100 flex justify-center"
-                >
-                  Register
-                </a>
-              </div>
             </div>
           </div>
         </Popover.Panel>
