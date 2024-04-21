@@ -299,7 +299,7 @@ const Header1 = () => {
       <div className="hidden lg:flex lg:gap-[20px] text-white">
         <a
           href="/contact"
-          target="_blank"
+          target=""
           className="mr-2 font-bold "
         >
           <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]">
