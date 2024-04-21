@@ -297,33 +297,6 @@ const Header1 = () => {
         </Popover.Panel>
       </Transition>
       <div className="hidden lg:flex lg:gap-[20px] text-white">
-        <a
-          href="/contact"
-          target=""
-          className="mr-2 font-bold "
-        >
-          <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]">
-            KYC
-          </button>
-        </a>
-        <a
-          href="/contact"
-          target=""
-          className="mr-2 font-bold"
-        >
-          <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]">
-            Login
-          </button>
-        </a>
-        <a
-          href="/contact"
-          target=""
-          className="font-bold"
-        >
-          <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh]  font-light rounded-xl text-[13px]">
-            Register
-          </button>
-        </a>
       </div>
     </Popover>
   );
