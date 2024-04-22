@@ -158,9 +158,14 @@ const Header1 = () => {
           <Link href="/contact" className="textdesign">
             Contact
           </Link>
-          <Link href="https://brainautotech.gitbook.io/intro/" target="_blank" rel="noopener noreferrer" className="textdesign">
-            Help Center
-          </Link>
+          <div
+            className="textdesign cursor-pointer"
+            onClick={() =>
+              window.open("https://brainautotech.gitbook.io/brain-auto-tech/")
+            }
+          >
+            Help center
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-end lg:hidden">
@@ -266,6 +271,14 @@ const Header1 = () => {
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Contact
+                  </div>
+                    <div
+            className="textdesign cursor-pointer"
+            onClick={() =>
+              window.open("https://brainautotech.gitbook.io/brain-auto-tech/")
+            }
+          >
+            Help center
                   </div>
                 </nav>
               </div>
