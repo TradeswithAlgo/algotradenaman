@@ -141,6 +141,9 @@ function Header() {
         <NavbarItem>
           <Link color="foreground" href="#">
             Contact
+            </Link>
+          <Link href="https://brainautotech.gitbook.io/intro/" target="_blank" rel="noopener noreferrer" className="textdesign">
+            Help Center
           </Link>
         </NavbarItem>
       </NavbarContent>
