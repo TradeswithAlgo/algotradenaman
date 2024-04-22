@@ -26,6 +26,7 @@ function Footer() {
                 provider, revolutionizing the future of <br></br>automation with
                 cutting-edge solutions.
 <br></br>CIN NO: U62013MP2024PTC069897
+<br></br>GSTN NO: 23AAMCB3515A1ZB
               </p>
               <div className="flex justify-start gap-4 items-start pb-8 pl-[10px]">
                 <a href="https://facebook.com/brainautotech" target="_blank" title="Facebook">
@@ -62,30 +63,30 @@ function Footer() {
             <div className="pl-[5px]">
               <ul className="hover:cursor-pointer">
                 <li className="font-semibold text-[17px] text-[#00c2e0]">
-                  IT services
+                ✧ IT services ✧
                 </li>
 
                 <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
                   <li className="hover:underline" onClick={() => setIsOpen(0)}>
-                    Web Development
+                  ➠ Web Development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(1)}>
-                    Mobile App development
+                  ➠ Mobile App development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(2)}>
-                    Graphic & Video Design
+                  ➠ Graphic & Video Design
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(3)}>
-                    Software Development
+                  ➠ Software Development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(4)}>
-                    Game Development
+                  ➠ Game Development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(5)}>
-                    Digital Marketing
+                  ➠ Digital Marketing
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(6)}>
-                    Partners
+                  ➠ Partners
                   </li>
                 </div>
               </ul>
@@ -93,7 +94,7 @@ function Footer() {
             <div className="pl-[5px]">
               <ul className="hover:cursor-pointer">
                 <li className="font-semibold text-[17px] text-[#00c2e0]">
-                  Algo Services
+                ✧ Algo Services ✧
                 </li>
                 <a>
                   <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
@@ -101,26 +102,26 @@ function Footer() {
                       className="hover:underline"
                       onClick={() => router.push("/api-bridge")}
                     >
-                      Api Bridge
+                     ➠ Api Bridge
                     </li>
                     <li
                       className="hover:underline"
                       onClick={() => router.push("/algo")}
                     >
-                      Algo software
+                     ➠ Algo software
                     </li>
                     <li
                       className="hover:underline"
                       onClick={() => router.push("/auto")}
                     >
-                      Auto Buy & Sell signals
+                     ➠ Auto Buy & Sell signals
                     </li>
                     <li
                       className="hover:underline"
                       onClick={() => router.push("/strategy")}
                     >
                       {" "}
-                      Stratergy Development
+                      ➠  Stratergy Development
                     </li>
                   </div>
                 </a>
@@ -133,15 +134,15 @@ function Footer() {
                 Contact Info:
               </div>
               <div className="font-semibold pt-[20px] text-[#566a8d]">
-              Sai kripa colony, Radisson square, <br />
+              📍 Sai kripa colony, Radisson square, <br />
                 Indore, Madhya Pradesh, 452010
               </div>
               <div className="text-[#566a8d] pt-[20px]">
-                P:{" "}
+               📞 Phone:{" "}
                 <a className="text-[#0e2b5c]" href="tel:9691315858">
-                  +(91)9691315858
+                 +91 9691315858
                 </a>{" "}
-                <br></br> M:{" "}
+                <br></br> 📩 Email:{" "}
                 <span className="text-[#0e2b5c]">
                 brainautotech1902@gmail.com
                 </span>

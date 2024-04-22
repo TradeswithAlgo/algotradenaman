@@ -95,21 +95,21 @@ const PricingSectionComp = () => {
         </h1>
         <div className="w-full space-y-4 md:space-y-0 card-container md:w-[80%] mx-auto h-auto mb-10 flex justify-evenly flex-row items-center flex-wrap">
           <PricingCard
-            type={"Monthly Software fees"}
+            type={"Monthly Software fees + GST"}
             price={paymentData[selectPricing].monthly.price}
             key={1}
             index={1}
             bulletPoints={paymentData[selectPricing].monthly.planData}
           />
           <PricingCard
-            type={"Quarterly Software fees"}
+            type={"Quarterly Software fees + GST"}
             price={paymentData[selectPricing].quarterly.price}
             key={2}
             index={2}
             bulletPoints={paymentData[selectPricing].quarterly.planData}
           />
           <PricingCard
-            type={"Half Yearly Software fees"}
+            type={"Half Yearly Software fees + GST"}
             price={paymentData[selectPricing].halfYearly.price}
             key={3}
             index={3}
