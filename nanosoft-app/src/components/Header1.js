@@ -27,19 +27,12 @@ const Header1 = () => {
       <img src="/sidelogoplustext.PNG" width={160} />
       <div className="grow ">
         <div className="hidden lg:flex items-center justify-center gap-2 md:gap-8 font-semibold">
-          <div
-            href=""
-            className="textdesign hover:cursor-pointer"
-            onClick={() => router.push("/")}
-          >
+          <a href="/" className="textdesign hover:cursor-pointer">
             Home
-          </div>
-          <div
-            onClick={() => router.push("/about")}
-            className="textdesign hover:cursor-pointer"
-          >
+          </a>
+          <a href="/about" className="textdesign hover:cursor-pointer">
             About
-          </div>
+          </a>
           <Dropdown>
             <DropdownTrigger>
               <Button
@@ -81,24 +74,20 @@ const Header1 = () => {
               <DropdownItem
                 key="supreme_support"
                 className="flex justify-center py-[8px]"
-                onClick={() => router.push("/it-services")}
               >
-                <a className="textdesign"> IT services </a>
+                <a href="/it-services" className="textdesign">
+                  {" "}
+                  IT services{" "}
+                </a>
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
-          <div
-            onClick={() => router.push("/pricing")}
-            className="textdesign cursor-pointer"
-          >
+          <a href="/pricing" className="textdesign cursor-pointer">
             Pricing
-          </div>
-          <div
-            onClick={() => router.push("/payment")}
-            className="textdesign hover:cursor-pointer"
-          >
+          </a>
+          <a href="/payment" className="textdesign hover:cursor-pointer">
             Payment
-          </div>
+          </a>
           <Dropdown>
             <DropdownTrigger>
               <Button
@@ -128,44 +117,51 @@ const Header1 = () => {
               <DropdownItem
                 key="autoscal"
                 className="flex justify-center py-[8px] "
-                onClick={() => router.push("/disclaimer")}
               >
-                <a className="textdesign"> Disclaimer </a>
+                <a href="/disclaimer" className="textdesign">
+                  {" "}
+                  Disclaimer{" "}
+                </a>
               </DropdownItem>
               <DropdownItem
                 key="supreme_support"
                 className="flex justify-center py-[8px]"
-                onClick={() => router.push("/privacy")}
               >
-                <a className="textdesign"> Privacy Policy </a>
+                <a href="/privacy" className="textdesign">
+                  {" "}
+                  Privacy Policy{" "}
+                </a>
               </DropdownItem>
               <DropdownItem
                 key="autoscaling"
                 className="flex justify-center py-[8px]"
-                onClick={() => router.push("/terms")}
               >
-                <a className="textdesign"> Terms and Condition </a>
+                <a href="/terms" className="textdesign">
+                  {" "}
+                  Terms and Condition{" "}
+                </a>
               </DropdownItem>
               <DropdownItem
                 key="supreme_supt"
                 className="flex justify-center py-[8px]"
-                onClick={() => router.push("/refund")}
               >
-                <a className="textdesign"> Refund Policy </a>
+                <a href="/refund" className="textdesign">
+                  {" "}
+                  Refund Policy{" "}
+                </a>
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
-          <Link href="/contact" className="textdesign">
+          <a href="/contact" className="textdesign">
             Contact
-          </Link>
-          <div
+          </a>
+          <a
+            href="https://brainautotech.gitbook.io/brain-auto-tech/"
+            target="_blank"
             className="textdesign cursor-pointer"
-            onClick={() =>
-              window.open("https://brainautotech.gitbook.io/brain-auto-tech/")
-            }
           >
             Help center
-          </div>
+          </a>
         </div>
       </div>
       <div className="flex items-center justify-end lg:hidden">
@@ -206,88 +202,87 @@ const Header1 = () => {
               </div>
               <div className="mt-6 ">
                 <nav className="grid gap-y-5 text-white font-bold text-center">
-                  <div
-                    onClick={() => router.push("/")}
+                  <a
+                    href="/"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Home
-                  </div>
-                  <div
-                    onClick={() => router.push("/about")}
+                  </a>
+                  <a
+                    href="/about"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     About
-                  </div>
-                  <div
-                    onClick={() => router.push("/it-services")}
+                  </a>
+                  <a
+                    href="/it-services"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     IT-Services
-                  </div>
-                  <div
-                    onClick={() => router.push("/algo-services")}
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                  </a>
+                  <a
+                    href="/algo-services"
+                    className="focus:outline-none focus:ring-2 !text-[#102b5c]  focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Algo-Services
-                  </div>
-                  <div
-                    onClick={() => router.push("/pricing")}
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                  </a>
+                  <a
+                    href="/pricing"
+                    className="focus:outline-none focus:ring-2 !text-[#102b5c]  focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Pricing
-                  </div>
-                  <div
-                    onClick={() => router.push("/payment")}
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                  </a>
+                  <a
+                    href="/payment"
+                    className="focus:outline-none focus:ring-2 !text-[#102b5c]  focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Payment
-                  </div>
-                  <div
-                    onClick={() => router.push("/disclaimer")}
+                  </a>
+                  <a
+                    href="/disclaimer"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Disclaimer
-                  </div>
-                  <div
-                    onClick={() => router.push("/privacy")}
+                  </a>
+                  <a
+                    href="/privacy"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Privacy Policy
-                  </div>
-                  <div
+                  </a>
+                  <a
+                    href="/terms"
                     onClick={() => router.push("/terms")}
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Terms and Condition
-                  </div>
-                  <div
-                    onClick={() => router.push("/refund")}
+                  </a>
+                  <a
+                    href="/refund"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Refund Policy
-                  </div>
-                  <div
-                    onClick={() => router.push("/contact")}
+                  </a>
+                  <a
+                    href="/contact"
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Contact
-                  </div>
-                    <div
-            className="textdesign cursor-pointer"
-            onClick={() =>
-              window.open("https://brainautotech.gitbook.io/brain-auto-tech/")
-            }
-          >
-            Help center
-                  </div>
+                  </a>
+                  <a
+                    href="https://brainautotech.gitbook.io/brain-auto-tech/"
+                    target="_blank"
+                    className="textdesign cursor-pointer"
+                  >
+                    Help center
+                  </a>
                 </nav>
               </div>
             </div>
           </div>
         </Popover.Panel>
       </Transition>
-      <div className="hidden lg:flex lg:gap-[20px] text-white">
-      </div>
+      <div className="hidden lg:flex lg:gap-[20px] text-white"></div>
     </Popover>
   );
 };
