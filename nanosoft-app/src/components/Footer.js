@@ -3,11 +3,9 @@ import React, { useState } from "react";
 import PopUp from "./PopUp";
 import { AnimatePresence } from "framer-motion";
 import popUpsData from "@/data/PopUps/PopUpsData";
-import { useRouter } from "next/navigation";
 
 function Footer() {
   const [isOpen, setIsOpen] = useState(null);
-  const router = useRouter();
 
   return (
     <>
@@ -25,11 +23,15 @@ function Footer() {
                 Brain Auto Tech is a leading algorithmic <br></br>software
                 provider, revolutionizing the future of <br></br>automation with
                 cutting-edge solutions.
-<br></br>CIN NO: U62013MP2024PTC069897
-<br></br>GSTN NO: 23AAMCB3515A1ZB
+                <br></br>CIN NO: U62013MP2024PTC069897
+                <br></br>GSTN NO: 23AAMCB3515A1ZB
               </p>
               <div className="flex justify-start gap-4 items-start pb-8 pl-[10px]">
-                <a href="https://facebook.com/brainautotech" target="_blank" title="Facebook">
+                <a
+                  href="https://facebook.com/brainautotech"
+                  target="_blank"
+                  title="Facebook"
+                >
                   <img
                     src="https://img.icons8.com/?size=48&id=118497&format=png"
                     width={36}
@@ -37,24 +39,33 @@ function Footer() {
                 </a>
                 <a
                   href="https://www.instagram.com/brainautotech"
-                  target="_blank" title="Instagram"
+                  target="_blank"
+                  title="Instagram"
                 >
                   <img
                     src="https://img.icons8.com/?size=48&id=Xy10Jcu1L2Su&format=png"
                     width={35}
                   />
                 </a>
-                <a href="https://telegram.me/brainautotech" target="_blank" title="Telegram">
+                <a
+                  href="https://telegram.me/brainautotech"
+                  target="_blank"
+                  title="Telegram"
+                >
                   <img
                     src="https://img.icons8.com/?size=96&id=25n4hOEoY7ss&format=png"
                     width={32}
                   />
                 </a>
-                <a href="https://www.youtube.com/@BrainAutoTech" target="_blank" title="YouTube">
-                <img
-                  src="https://img.icons8.com/?size=96&id=19318&format=png"
-                  width={33}
-                />
+                <a
+                  href="https://www.youtube.com/@BrainAutoTech"
+                  target="_blank"
+                  title="YouTube"
+                >
+                  <img
+                    src="https://img.icons8.com/?size=96&id=19318&format=png"
+                    width={33}
+                  />
                 </a>
               </div>
             </div>
@@ -63,30 +74,30 @@ function Footer() {
             <div className="pl-[5px]">
               <ul className="hover:cursor-pointer">
                 <li className="font-semibold text-[17px] text-[#00c2e0]">
-                ✧ IT services ✧
+                  ✧ IT services ✧
                 </li>
 
                 <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
                   <li className="hover:underline" onClick={() => setIsOpen(0)}>
-                  ➠ Web Development
+                    ➠ Web Development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(1)}>
-                  ➠ Mobile App development
+                    ➠ Mobile App development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(2)}>
-                  ➠ Graphic & Video Design
+                    ➠ Graphic & Video Design
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(3)}>
-                  ➠ Software Development
+                    ➠ Software Development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(4)}>
-                  ➠ Game Development
+                    ➠ Game Development
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(5)}>
-                  ➠ Digital Marketing
+                    ➠ Digital Marketing
                   </li>
                   <li className="hover:underline" onClick={() => setIsOpen(6)}>
-                  ➠ Partners
+                    ➠ Partners
                   </li>
                 </div>
               </ul>
@@ -94,37 +105,23 @@ function Footer() {
             <div className="pl-[5px]">
               <ul className="hover:cursor-pointer">
                 <li className="font-semibold text-[17px] text-[#00c2e0]">
-                ✧ Algo Services ✧
+                  ✧ Algo Services ✧
                 </li>
-                <a>
-                  <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
-                    <li
-                      className="hover:underline"
-                      onClick={() => router.push("/api-bridge")}
-                    >
-                     ➠ Api Bridge
-                    </li>
-                    <li
-                      className="hover:underline"
-                      onClick={() => router.push("/algo")}
-                    >
-                     ➠ Algo software
-                    </li>
-                    <li
-                      className="hover:underline"
-                      onClick={() => router.push("/auto")}
-                    >
-                     ➠ Auto Buy & Sell signals
-                    </li>
-                    <li
-                      className="hover:underline"
-                      onClick={() => router.push("/strategy")}
-                    >
-                      {" "}
-                      ➠  Stratergy Development
-                    </li>
-                  </div>
-                </a>
+
+                <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
+                  <li className="hover:underline">
+                    <a href="/api-bridge">➠ Api Bridge</a>
+                  </li>
+                  <li className="hover:underline">
+                    <a href="/algo">➠ Algo software</a>
+                  </li>
+                  <li className="hover:underline">
+                    <a href="/auto">➠ Auto Buy & Sell signals</a>
+                  </li>
+                  <li className="hover:underline">
+                    <a href="/strategy">➠ Stratergy Development</a>
+                  </li>
+                </div>
               </ul>
             </div>
           </div>
@@ -134,18 +131,21 @@ function Footer() {
                 Contact Info:
               </div>
               <div className="font-semibold pt-[20px] text-[#566a8d]">
-              📍 Sai kripa colony, Radisson square, <br />
+                📍 Sai kripa colony, Radisson square, <br />
                 Indore, Madhya Pradesh, 452010
               </div>
               <div className="text-[#566a8d] pt-[20px]">
-               📞 Phone:{" "}
+                📞 Phone:{" "}
                 <a className="text-[#0e2b5c]" href="tel:9691315858">
-                 +91 9691315858
+                  +91 9691315858
                 </a>{" "}
                 <br></br> 📩 Email:{" "}
-                <span className="text-[#0e2b5c]">
-                brainautotech1902@gmail.com
-                </span>
+                <a
+                  href="mailto:brainautotech1902@gmail.com"
+                  className="text-[#0e2b5c]"
+                >
+                  brainautotech1902@gmail.com
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 "use client";
 import React, { Fragment } from "react";
-import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import {
@@ -14,10 +13,8 @@ import {
   Dropdown,
   DropdownMenu,
 } from "@nextui-org/react";
-import { useRouter } from "next/navigation";
 
 const Header1 = () => {
-  const router = useRouter();
   return (
     <Popover
       className={
@@ -252,7 +249,6 @@ const Header1 = () => {
                   </a>
                   <a
                     href="/terms"
-                    onClick={() => router.push("/terms")}
                     className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Terms and Condition

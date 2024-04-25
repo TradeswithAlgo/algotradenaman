@@ -14,25 +14,24 @@ const ICON = L.icon({
 
 function SimpleMap() {
   return (
-    <MapContainer
-      className="!h-[60vh] !z-0"
-      center={[22.749283, 75.903513]}
-      zoom={13}
-      scrollWheelZoom={false}
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <Marker
-        icon={ICON}
-        position={[22.749283, 75.903513]}
+    <div className="pt-20" id="map">
+      <MapContainer
+        className="!h-[60vh] !z-0"
+        center={[22.749283, 75.903513]}
+        zoom={13}
+        scrollWheelZoom={false}
       >
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
-    </MapContainer>
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <Marker icon={ICON} position={[22.749283, 75.903513]}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
+      </MapContainer>
+    </div>
   );
 }
 

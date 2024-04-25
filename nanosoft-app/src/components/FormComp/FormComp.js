@@ -28,11 +28,38 @@ function FormComp() {
     e.preventDefault();
     if (isLoading.current === false) {
       isLoading.current = true;
+      
+      
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        toast.error("Please enter a valid email address.", {
+          duration: 4000,
+        });
+        isLoading.current = false;
+        return;
+      }
+
+      
+      const mobileRegex = /^\+[0-9]{1,3}[0-9]{6,14}$/;
+      if (!mobileRegex.test(mobileNumber)) {
+        toast.error("Please enter a valid mobile number.", {
+          duration: 4000,
+        });
+        isLoading.current = false;
+        return;
+      }
+
+      toast.loading(
+        "Your request is sending, please wait!!",
+        {
+          duration: 4000,
+        }
+      );
       const newRow = {
-        Name: "",
-        Mobile: "",
-        Email: "",
-        Investment: "",
+        Name: yourName,
+        Mobile: mobileNumber,
+        Email: email,
+        Investment: investment,
         Services: "",
       };
       let serviceString = "";
@@ -41,11 +68,8 @@ function FormComp() {
           serviceString = serviceString + key + ", ";
         }
       }
-      newRow.Name = yourName;
-      newRow.Email = email;
-      newRow.Investment = investment;
-      newRow.Mobile = mobileNumber;
       newRow.Services = serviceString;
+
       try {
         const response1 = await window.fetch(
           "https://formlinking.brainautotech.com/pushrow",
@@ -77,7 +101,7 @@ function FormComp() {
       isLoading.current = false;
     } else {
       toast.loading(
-        "Your Message is being send!!, please wait until you can send the next one!",
+        "Your Message is being sent!! Please wait until you can send the next one!",
         {
           duration: 4000,
         }
@@ -94,10 +118,10 @@ function FormComp() {
         <h2 className="text-2xl text-center font-bold mb-7 text-[#1f3a68]">
           Fill the form for personal assistance
         </h2>
-        <form action="">
+        <form>
           <div className="mb-4">
             <label
-              className="block  text-sm font-semibold mb-2 text-[#1f3a68]"
+              className="block text-sm font-semibold mb-2 text-[#1f3a68]"
               htmlFor="yourName"
             >
               Name
@@ -124,11 +148,12 @@ function FormComp() {
               id="Email"
               name="Email"
               value={email}
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               onChange={(e) => setEmail(e.target.value)}
               placeholder="yourname@example.com"
               className="w-full px-3 py-3 border rounded-lg   text-sm"
               required
-              type="text"
+              type="email"
             />
           </div>
           <div className="mb-4">
@@ -256,15 +281,16 @@ function FormComp() {
           </div>
 
           <div className="flex justify-center">
-            <button
+            <input
               type="submit"
               onClick={(e) => handleSubmit(e)}
-              className="bg-[#4f55c1] text-white font-semibold px-4 py-2 rounded-lg w-full text-sm"
-            >
-              Request a Demo
-            </button>
+              className="bg-[#4f55c1] cursor-pointer text-white font-semibold px-4 py-2 rounded-lg w-full text-sm"
+            />
           </div>
-          <p className="text-[12px] font-medium pt-2 text-[#1f3a68]">{`We will not save any of your information, it’s end to end encrypted and will be auto deleted after we call you back.`}</p>
+          <p className="text-[12px] font-medium pt-2 text-[#1f3a68]">
+            {`We will not save any of your information, it’s end to end encrypted
+            and will be auto deleted after we call you back.`}
+          </p>
         </form>
       </div>
     </>

@@ -1,8 +1,6 @@
 import React from "react";
-import { useRouter } from "next/navigation";
 
-function ServiceCard({ title, description, imgSrc,readmore }) {
-  const router = useRouter();
+function ServiceCard({ title, description, imgSrc, readmore }) {
   return (
     <div className="lg:w-[30%] w-full h-52 relative group service-card">
       <img className="w-full object-cover h-full" src={imgSrc} alt="" />
@@ -14,12 +12,12 @@ function ServiceCard({ title, description, imgSrc,readmore }) {
           <p className="text-black w-full text-center absolute font-semibold transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-[70%] transition-all duration-300 group-hover:top-[30%]">
             {description}
           </p>
-          <p
-            onClick={() => router.push(`${readmore}`)}
+          <a
+            href={readmore}
             className="text-[#3ea9f5] cursor-pointer w-full hover:w-[80%] hover:bg-pink-600 hover:text-white text-center absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2  top-[110%] font-semibold transition-all duration-300 group-hover:top-[70%]"
           >
             Read More {" ↗"}
-          </p>
+          </a>
         </div>
       </div>
     </div>

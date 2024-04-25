@@ -4,12 +4,8 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-import { useRouter } from "next/navigation";
-import PreloadResources from "@/app/preload-resources";
 
 function ContactUsSection({ setLoading, indexLoad }) {
-  const router = useRouter();
-
   const contactUsSectionRef = useRef();
   useGSAP(
     () => {
@@ -99,16 +95,13 @@ function ContactUsSection({ setLoading, indexLoad }) {
         auto robot trading terminal. Maximize profits with Money Machine and
         Eagle trading systems.`}
       </p>
-      <a onClick={() => router.push("/contact")}>
-        <div className="bg-red-400 contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black p-6 text-xl font-bold rounded-lg text-white !mt-10 !mb-0">
-          Contact us Now
-        </div>
+      <a
+        href="/contact"
+        className="bg-red-400 contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black p-6 text-xl font-bold rounded-lg text-white !mt-10 !mb-0"
+      >
+        Contact us Now
       </a>
-      <img
-        className="w-full md:!-mt-40 -z-10"
-        src="/image/foter.png"
-        alt=""
-      />
+      <img className="w-full md:!-mt-96 -z-10" src="/image/foter.png" alt="" />
     </section>
   );
 }

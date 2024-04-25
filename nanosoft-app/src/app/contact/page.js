@@ -13,8 +13,8 @@ import {
 config.autoAddCss = false;
 
 import dynamic from "next/dynamic";
-import BlobComp from "./components/BlobComp";
-import FormComp from "./components/FormComp";
+import BlobComp from "@/components/FormComp/BlobComp";
+import FormComp from "@/components/FormComp/FormComp";
 
 const SimpleMap = dynamic(() => import("./components/SimpleMap"), {
   ssr: false,
@@ -25,7 +25,7 @@ const Page = () => {
     <>
       <Header1 />
 
-      <div className="pt-[80px] pb-[30px]">
+      <div className="pt-[80px] ">
         <div className="w-full flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
           Contact Us
         </div>
@@ -67,7 +67,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className="py-4 w-full">
+      <div className="w-full">
         <SimpleMap />
       </div>
       <hr className="pb-[20px]"></hr>

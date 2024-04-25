@@ -15,6 +15,7 @@ function PurpleCardSection({ setLoading, indexLoad}) {
         scrollTrigger: {
           toggleActions: "restart pause restart pause",
           trigger: ".p1",
+          markers: true
         },
       });
 
@@ -137,7 +138,7 @@ function PurpleCardSection({ setLoading, indexLoad}) {
         <p className="text-[#627792] text-center lg:mt-20 mt-[660px] p3">
           Stop wasting time and money on manual trading{" "}
           <span className="text-black underline">
-          <a href="https://brainautotech.com/algo-services/" target="_blank" title="Brain Auto Tech Docs">Explore our automated services.</a>
+          <a href="/algo-services/" target="_blank" title="Brain Auto Tech Docs">Explore our automated services.</a>
             </span>
         </p>
       </section>
