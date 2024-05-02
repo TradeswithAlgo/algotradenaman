@@ -15,6 +15,8 @@ config.autoAddCss = false;
 import dynamic from "next/dynamic";
 import BlobComp from "@/components/FormComp/BlobComp";
 import FormComp from "@/components/FormComp/FormComp";
+import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
+import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
 
 const SimpleMap = dynamic(() => import("./components/SimpleMap"), {
   ssr: false,
@@ -23,6 +25,8 @@ const SimpleMap = dynamic(() => import("./components/SimpleMap"), {
 const Page = () => {
   return (
     <>
+      <LoadGoogleAdsScript />
+      <LoadGoogleAdsIframe />
       <Header1 />
 
       <div className="pt-[80px] ">

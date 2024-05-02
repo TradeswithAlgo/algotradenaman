@@ -12,6 +12,8 @@ import SlidingHeroSection from "@/components/SlidingHeroSection";
 import Testimonials from "@/components/Testimonials";
 import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
+import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
 
 export default function Home() {
   const [loading, setLoading] = useState([
@@ -43,28 +45,30 @@ export default function Home() {
     }
     loadImg();
   }, []);
-
-  // console.log(isLoaded, loading);
   return (
-    <main>
+    <>
+    <LoadGoogleAdsScript />
+      <main>
+        <LoadGoogleAdsIframe />
 
-      <SidePopup />
-      <Header1 />
+        <SidePopup />
+        <Header1 />
 
-      <AnimatePresence mode="wait">
-        {!isLoaded && <LoadingScreen />}
-      </AnimatePresence>
+        <AnimatePresence mode="wait">
+          {!isLoaded && <LoadingScreen />}
+        </AnimatePresence>
 
-      <SlidingHeroSection setLoading={setLoading} indexLoad={0} />
-      <PurpleCardSection setLoading={setLoading} indexLoad={1} />
+        <SlidingHeroSection setLoading={setLoading} indexLoad={0} />
+        <PurpleCardSection setLoading={setLoading} indexLoad={1} />
 
-      <OurServicesSection setLoading={setLoading} indexLoad={2} />
-      <IndustryWeServeSection setLoading={setLoading} indexLoad={3} />
-      <OurValuesSection setLoading={setLoading} indexLoad={4} />
+        <OurServicesSection setLoading={setLoading} indexLoad={2} />
+        <IndustryWeServeSection setLoading={setLoading} indexLoad={3} />
+        <OurValuesSection setLoading={setLoading} indexLoad={4} />
 
-      <Testimonials setLoading={setLoading} indexLoad={5} />
-      <ContactUsSection setLoading={setLoading} indexLoad={6} />
-      <Footer />
-    </main>
+        <Testimonials setLoading={setLoading} indexLoad={5} />
+        <ContactUsSection setLoading={setLoading} indexLoad={6} />
+        <Footer />
+      </main>
+    </>
   );
 }

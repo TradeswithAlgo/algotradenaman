@@ -6,7 +6,7 @@ const testimonialCardDeatils = [
     lesson from an expert. The automatic software they propose to fulfill my expectations giving exact data and instant reply to any question asked for. 
     I truly appreciate their assistance very much. Love you, Brain Auto tech!"`,
     imgSrc:
-      "https://freedesignfile.com/upload/2017/06/Women-working-in-the-office-Stock-Photo.jpg",
+      "https://images.unsplash.com/photo-1552162864-987ac51d1177?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Rajesh Kumar",

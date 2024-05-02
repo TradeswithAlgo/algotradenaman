@@ -1,10 +1,14 @@
 import Footer from "@/components/Footer";
 import Header1 from "@/components/Header1";
+import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
+import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
 import React from "react";
 
 const Page = () => {
   return (
     <>
+      <LoadGoogleAdsScript />
+      <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
         <div className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
