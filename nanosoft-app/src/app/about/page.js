@@ -2,6 +2,8 @@ import ContactUsSection from "@/components/ContactUsSection";
 import Footer from "@/components/Footer";
 import Header1 from "@/components/Header1";
 import React from "react";
+import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
+import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
 
 const Aboutus = () => {
   return (
