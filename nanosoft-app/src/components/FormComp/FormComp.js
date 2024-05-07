@@ -28,8 +28,7 @@ function FormComp() {
     e.preventDefault();
     if (isLoading.current === false) {
       isLoading.current = true;
-      
-      
+
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
         toast.error("Please enter a valid email address.", {
@@ -39,8 +38,8 @@ function FormComp() {
         return;
       }
 
-      
-      const mobileRegex = /^\+[0-9]{1,3}[0-9]{6,14}$/;
+      const mobileRegex = /^[0-9]{6,13}$/;
+
       if (!mobileRegex.test(mobileNumber)) {
         toast.error("Please enter a valid mobile number.", {
           duration: 4000,
@@ -49,12 +48,9 @@ function FormComp() {
         return;
       }
 
-      toast.loading(
-        "Your request is sending, please wait!!",
-        {
-          duration: 4000,
-        }
-      );
+      toast.loading("Your request is sending, please wait!!", {
+        duration: 4000,
+      });
       const newRow = {
         Name: yourName,
         Mobile: mobileNumber,
