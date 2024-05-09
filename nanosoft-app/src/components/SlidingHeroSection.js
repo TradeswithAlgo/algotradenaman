@@ -34,7 +34,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
         className="mySwiper w-[100%] mr-0 pr-0"
       >
         <SwiperSlide>
-          <div className="relative xl:h-[680px] sm:h-[60vh]  h-[80vh]">
+          <div className="relative xl:h-[680px] sm:h-[60vh]  h-[70vh]">
             <div
               className="absolute inset-0 bg-cover bg-center w-full filter contrast-150 "
               style={{
@@ -91,7 +91,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative xl:h-[680px] sm:h-[60vh] h-[80vh]">
+          <div className="relative xl:h-[680px] sm:h-[60vh] h-[70vh]">
             <div
               className="absolute inset-0 bg-cover bg-center w-full filter contrast-150"
               style={{
@@ -140,7 +140,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                         Fully Automated Stratigies
                       </p>
                     </MovingComponent>
-                    <CTAMiddle />
+                    <CTA type="middle" />
                   </div>
                 </div>
               </div>
@@ -148,7 +148,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative xl:h-[680px] sm:h-[60vh] h-[80vh]">
+          <div className="relative xl:h-[680px] sm:h-[60vh] h-[70vh]">
             <div
               className="absolute inset-0 bg-cover bg-center w-full filter contrast-150"
               style={{
@@ -210,7 +210,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
   );
 }
 
-const CTAMiddle = () => {
+const CTA = ({ type }) => {
   return (
     <MovingComponent
       type="fadeInFromTop"
@@ -221,44 +221,11 @@ const CTAMiddle = () => {
       iteration="1"
       fillMode="forwards"
     >
-      <div className="mt-10 flex xl:w-[55%] w-full justify-between">
-        <a
-          href="/contact"
-          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
-        >
-          Contact us
-        </a>
-        <a
-          href="/contact"
-          target="_blank"
-          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
-        >
-          Book Demo
-        </a>
-        <a
-          href="/contact"
-          target="_blank"
-          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
-        >
-          Try Now
-        </a>
-      </div>
-    </MovingComponent>
-  );
-};
-
-const CTA = () => {
-  return (
-    <MovingComponent
-      type="fadeInFromTop"
-      duration="400ms"
-      delay="0s"
-      direction="normal"
-      timing="linear"
-      iteration="1"
-      fillMode="forwards"
-    >
-      <div className="mt-10 flex w-full justify-between">
+      <div
+        className={`mt-10 flex ${
+          type === "middle" && "xl:w-[55%]"
+        } w-full justify-between`}
+      >
         <a
           href="/contact"
           className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"

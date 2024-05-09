@@ -14,6 +14,7 @@ import { AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
 import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
+import AppFormComp from "@/components/FormComp/AppFormComp";
 
 export default function Home() {
   const [loading, setLoading] = useState([
@@ -64,7 +65,7 @@ export default function Home() {
         <OurServicesSection setLoading={setLoading} indexLoad={2} />
         <IndustryWeServeSection setLoading={setLoading} indexLoad={3} />
         <OurValuesSection setLoading={setLoading} indexLoad={4} />
-
+        <AppFormComp />
         <Testimonials setLoading={setLoading} indexLoad={5} />
         <ContactUsSection setLoading={setLoading} indexLoad={6} />
         <Footer />

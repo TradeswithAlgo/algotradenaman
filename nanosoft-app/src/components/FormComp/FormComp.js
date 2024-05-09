@@ -38,7 +38,7 @@ function FormComp() {
         return;
       }
 
-      const mobileRegex = /\+?\s?\d{6,12}/;
+      const mobileRegex = /^\+?\d{2}?\s?\d{6,10}$/;
 
       if (!mobileRegex.test(mobileNumber)) {
         toast.error("Please enter a valid mobile number.", {
