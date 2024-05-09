@@ -1,9 +1,9 @@
-import Header1 from '@/components/Header1'
-import React from 'react'
-import Itservicessection from './compo/Itservicessection'
-import Footer from '@/components/Footer'
-import LoadGoogleAdsScript from '@/components/LoadGoogleAdsScript'
-import LoadGoogleAdsIframe from '@/components/LoadGoogleAdsIframe'
+import Header1 from "@/components/Header1";
+import React from "react";
+import Itservicessection from "./compo/Itservicessection";
+import Footer from "@/components/Footer";
+import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
+import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
 
 const Page = () => {
   return (
@@ -21,6 +21,6 @@ const Page = () => {
       <Footer />
     </>
   );
-}
+};
 
-export default Page
+export default Page;

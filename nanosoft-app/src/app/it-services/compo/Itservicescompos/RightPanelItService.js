@@ -15,7 +15,7 @@ const ATagComp = ({ title, imgSrc, routing }) => (
 
 function RightPanelItService() {
   return (
-    <div className="flex w-1/4 flex-col float-left pl-4 py-6">
+    <div className="flex w-full xl:w-1/4 flex-col float-left pl-4 py-6">
       {Itservicescontent.map((ele, index) => (
         <ATagComp key={index} {...ele} />
       ))}

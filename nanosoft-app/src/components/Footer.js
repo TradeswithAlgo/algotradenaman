@@ -78,24 +78,42 @@ function Footer() {
                 </li>
 
                 <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
-                  <li className="hover:underline" onClick={() => setIsOpen(0)}>
+                  <a
+                    href="/it-services/web-development"
+                    className="hover:underline block"
+                  >
                     ➠ Web Development
-                  </li>
-                  <li className="hover:underline" onClick={() => setIsOpen(1)}>
+                  </a>
+                  <a
+                    href="/it-services/mobile-app-development"
+                    className="hover:underline block"
+                  >
                     ➠ Mobile App development
-                  </li>
-                  <li className="hover:underline" onClick={() => setIsOpen(2)}>
+                  </a>
+                  <a
+                    href="/it-services/graphic-video-design"
+                    className="hover:underline block"
+                  >
                     ➠ Graphic & Video Design
-                  </li>
-                  <li className="hover:underline" onClick={() => setIsOpen(3)}>
+                  </a>
+                  <a
+                    href="/it-services/software-development"
+                    className="hover:underline block"
+                  >
                     ➠ Software Development
-                  </li>
-                  <li className="hover:underline" onClick={() => setIsOpen(4)}>
+                  </a>
+                  <a
+                    href="/it-services/game-development"
+                    className="hover:underline block"
+                  >
                     ➠ Game Development
-                  </li>
-                  <li className="hover:underline" onClick={() => setIsOpen(5)}>
+                  </a>
+                  <a
+                    href="/it-services/digital-marketing"
+                    className="hover:underline block"
+                  >
                     ➠ Digital Marketing
-                  </li>
+                  </a>
                   <li className="hover:underline" onClick={() => setIsOpen(6)}>
                     ➠ Partners
                   </li>

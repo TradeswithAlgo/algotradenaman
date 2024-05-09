@@ -6,7 +6,7 @@ import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
 import ItServiceData from "@/data/ItServicesData/ItServicesData";
 import RightPanelItService from "../compo/Itservicescompos/RightPanelItService";
 
-const dataIndex = 1;
+const dataIndex = 5;
 const Page = () => {
   return (
     <>
