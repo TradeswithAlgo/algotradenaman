@@ -4,7 +4,7 @@ import Itservicescontent from "@/data/ItServices/Itservicescontent";
 import GreyCard1 from "./Itservicescompos/GreyCard1";
 import { AnimatePresence } from "framer-motion";
 import PopUp from "@/components/PopUp";
-import popUpsData from "@/data/PopUps/PopUpsData";
+import popUpsData from "@/data/ItServicesData/ItServicesData";
 
 const Itservicessection = () => {
   const [isOpen, setIsOpen] = useState(null);

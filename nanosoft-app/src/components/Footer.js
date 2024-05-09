@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import PopUp from "./PopUp";
 import { AnimatePresence } from "framer-motion";
-import popUpsData from "@/data/PopUps/PopUpsData";
+import popUpsData from "@/data/ItServicesData/ItServicesData";
 
 function Footer() {
   const [isOpen, setIsOpen] = useState(null);

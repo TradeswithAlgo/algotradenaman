@@ -1,4 +1,4 @@
-const popUpsData = [
+const ItServiceData = [
   {
     title: "Web Development",
     description: `We have a dedicated team of experienced and knowledgeable web
@@ -86,4 +86,4 @@ and bug-free. We focus on providing the most secure in-app purchases to ensure t
   },
 ];
 
-export default popUpsData;
+export default ItServiceData;
