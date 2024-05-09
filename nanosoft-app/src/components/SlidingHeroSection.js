@@ -34,7 +34,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
         className="mySwiper w-[100%] mr-0 pr-0"
       >
         <SwiperSlide>
-          <div className="relative xl:h-[680px] h-[50vh]">
+          <div className="relative xl:h-[680px] sm:h-[60vh]  h-[80vh]">
             <div
               className="absolute inset-0 bg-cover bg-center w-full filter contrast-150 "
               style={{
@@ -83,6 +83,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                         in the Market.
                       </p>
                     </MovingComponent>
+                    <CTA />
                   </div>
                 </div>
               </div>
@@ -90,7 +91,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative xl:h-[680px] h-[50vh]">
+          <div className="relative xl:h-[680px] sm:h-[60vh] h-[80vh]">
             <div
               className="absolute inset-0 bg-cover bg-center w-full filter contrast-150"
               style={{
@@ -139,6 +140,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                         Fully Automated Stratigies
                       </p>
                     </MovingComponent>
+                    <CTAMiddle />
                   </div>
                 </div>
               </div>
@@ -146,7 +148,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative xl:h-[680px] h-[50vh]">
+          <div className="relative xl:h-[680px] sm:h-[60vh] h-[80vh]">
             <div
               className="absolute inset-0 bg-cover bg-center w-full filter contrast-150"
               style={{
@@ -166,7 +168,8 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[50px] text-[4.5vh] font-medium text-white">
-                        Easy to <br className="block xl:hidden"></br>Use Software
+                        Easy to <br className="block xl:hidden"></br>Use
+                        Software
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -195,6 +198,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                         Supported.
                       </p>
                     </MovingComponent>
+                    <CTA />
                   </div>
                 </div>
               </div>
@@ -205,5 +209,79 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
     </div>
   );
 }
+
+const CTAMiddle = () => {
+  return (
+    <MovingComponent
+      type="fadeInFromTop"
+      duration="400ms"
+      delay="0s"
+      direction="normal"
+      timing="linear"
+      iteration="1"
+      fillMode="forwards"
+    >
+      <div className="mt-10 flex xl:w-[55%] w-full justify-between">
+        <a
+          href="/contact"
+          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+        >
+          Contact us
+        </a>
+        <a
+          href="/contact"
+          target="_blank"
+          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+        >
+          Book Demo
+        </a>
+        <a
+          href="/contact"
+          target="_blank"
+          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+        >
+          Try Now
+        </a>
+      </div>
+    </MovingComponent>
+  );
+};
+
+const CTA = () => {
+  return (
+    <MovingComponent
+      type="fadeInFromTop"
+      duration="400ms"
+      delay="0s"
+      direction="normal"
+      timing="linear"
+      iteration="1"
+      fillMode="forwards"
+    >
+      <div className="mt-10 flex w-full justify-between">
+        <a
+          href="/contact"
+          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+        >
+          Contact us
+        </a>
+        <a
+          href="/contact"
+          target="_blank"
+          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+        >
+          Book Demo
+        </a>
+        <a
+          href="/contact"
+          target="_blank"
+          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+        >
+          Try Now
+        </a>
+      </div>
+    </MovingComponent>
+  );
+};
 
 export default SlidingHeroSection;
