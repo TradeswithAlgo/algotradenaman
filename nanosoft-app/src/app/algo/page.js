@@ -2,8 +2,8 @@ import Header1 from "@/components/Header1";
 import React from "react";
 import AlgoSection from "./compo/algoSectionComp";
 import Footer from "@/components/Footer";
-import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
 import LoadGoogleAdsIframe from "@/components/LoadGoogleAdsIframe";
+import LoadGoogleAdsScript from "@/components/LoadGoogleAdsScript";
 
 const Page = () => {
   return (
