@@ -14,6 +14,7 @@ function FormComp() {
   const [email, setEmail] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
   const [investment, setInvestment] = useState("");
+  const thankYouPageRedirect = useRef(null);
 
   const handleCheckboxChange = (event) => {
     const { name, checked } = event.target;
@@ -83,6 +84,9 @@ function FormComp() {
               duration: 4000,
             }
           );
+          setTimeout(() => {
+            thankYouPageRedirect.current.click();
+          }, 4000);
         } else {
           toast.error("Internal Server Error, 404!!", {
             duration: 4000,
@@ -107,6 +111,9 @@ function FormComp() {
 
   return (
     <>
+      <a className="hidden" href="/thankyou" ref={thankYouPageRedirect}>
+        thankyou page redirect hidden
+      </a>
       <div className="xl:w-2/6 lg:w-2/4 w-full mx-auto p-8 bg-slate-50 rounded-lg relative border-[12px] border-white shadow-2xl ">
         <div className="flex justify-center mb-[20px]">
           <img src="/braintechlogo.PNG" width={150} />
