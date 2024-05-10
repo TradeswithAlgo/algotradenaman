@@ -21,7 +21,9 @@ const Header1 = () => {
         "flex items-center border-b-2 w-[100%] px-6 bg-white py-2 h-20 text-black z-[100] fixed  shadow-2xl bg-opacity-90 bg-blur"
       }
     >
-      <img src="/sidelogoplustext.PNG" width={160} />
+      <a href="/" className="cursor-pointer outline-none border-none">
+        <img src="/sidelogoplustext.PNG" width={160} />
+      </a>
       <div className="grow ">
         <div className="hidden lg:flex items-center justify-center gap-2 md:gap-8 font-semibold">
           <a href="/" className="textdesign hover:cursor-pointer">
@@ -183,7 +185,9 @@ const Header1 = () => {
           <div className="rounded-lg bg-[#aee9e7] !text-[#102b5c] shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 ">
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
-                <img src="/Textonly.png" width={160} className="" />
+                <a href="/" className="cursor-pointer outline-none border-none">
+                  <img src="/Textonly.png" width={160} className="" />
+                </a>
                 <div className="-mr-2">
                   <Popover.Button
                     className="inline-flex items-center justify-center rounded-md bg-[#aee9e7] p-2 text-black

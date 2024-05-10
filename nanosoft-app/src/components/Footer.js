@@ -18,7 +18,9 @@ function Footer() {
         <div className="lg:flex lg:justify-between  lg:px-[14vh] lg:items-start lg:space-x-4">
           <div className="flex justify-center">
             <div className="flex-row  ">
-              <img src="/braintechlogo.PNG" width={180} />
+              <a href="/" className="cursor-pointer outline-none border-none">
+                <img src="/braintechlogo.PNG" width={180} />
+              </a>
               <p className="pb-[30px] pt-[10px] text-[#566a8d] pl-[12px]">
                 Brain Auto Tech is a leading algorithmic <br></br>software
                 provider, revolutionizing the future of <br></br>automation with

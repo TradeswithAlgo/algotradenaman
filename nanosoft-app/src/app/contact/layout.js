@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Brain Auto Tech",
+  title: "Contact Us - Brain Auto Tech",
   description: "Brain Auto Tech",
 };
 
