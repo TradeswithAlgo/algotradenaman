@@ -39,7 +39,15 @@ deployment:
       $DEPLOYPATH
     - >-
       /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/robots.txt
+      $DEPLOYPATH
+    - >-
+      /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sidelogoplustext.PNG
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sitemap.xml
       $DEPLOYPATH
     - >-
       /bin/cp
