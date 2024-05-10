@@ -53,9 +53,9 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       iteration="1"
                       fillMode="forwards"
                     >
-                      <p className="xl:text-[50px] text-[4vh] font-medium text-white">
+                      <h1 className="xl:text-[50px] text-[4vh] font-medium text-white">
                         Best <br className="block xl:hidden"></br>ALGO Software
-                      </p>
+                      </h1>
                     </MovingComponent>
                     <MovingComponent
                       type="fadeInFromTop"

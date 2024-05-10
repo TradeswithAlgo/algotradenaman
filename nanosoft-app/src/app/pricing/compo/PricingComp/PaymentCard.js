@@ -15,7 +15,7 @@ function PricingCard({ type, price, bulletPoints, index }) {
     >
       <div className="flex items-center">
         {/* <div  className="w-12 h-12 rounded-full bg-black" ></div> */}
-        <h1 className="font-bold text-2xl text-[#0e2b5c]">{type}</h1>
+        <h3 className="font-bold text-2xl text-[#0e2b5c]">{type}</h3>
       </div>
       <div className="py-[20px]">
         <p

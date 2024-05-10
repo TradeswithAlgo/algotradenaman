@@ -143,9 +143,9 @@ function IndustryWeServeSection({ setLoading, indexLoad}) {
             <p className="tracking-widest text-xs text-[#1dc2ef] p1">
               INDUSTRIES WE SERVE
             </p>
-            <h1 className="text-white text-2xl font-bold h1">
+            <h2 className="text-white text-2xl font-bold h1">
               Managed IT services customized for your industry
-            </h1>
+            </h2>
           </div>
           <div className="md:w-[40%] w-full text-[#9b9aad] text-base p2">
             {`We are Providing Algo Software is one of the most leading software, which helps to automate your 

@@ -133,3 +133,7 @@ deployment:
       /bin/cp -R
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/terms
       $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/thankyou
+      $DEPLOYPATH

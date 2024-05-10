@@ -76,9 +76,9 @@ const AlgoSection = () => {
         {SectionCompParaData.map((eleData, index) => (
           <SectionCompPara {...eleData} key={index} />
         ))}
-        <h1 className="text-black font-bold text-3xl lg:text-left text-center">
+        <h2 className="text-black font-bold text-3xl lg:text-left text-center">
           Some Benefits for you
-        </h1>
+        </h2>
         <ul className="px-2 !mt-0">
           {UlLiCompData.map((eleData, index) => (
             <UlLiCompAlgoSection {...eleData} key={index} />

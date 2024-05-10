@@ -119,9 +119,9 @@ function PurpleCardSection({ setLoading, indexLoad }) {
             <p className="tracking-widest p1 text-xs text-[#1dc2ef]">
               OUR COMPANY
             </p>
-            <h1 className="text-white text-2xl font-bold h1">
+            <h2 className="text-white text-2xl font-bold h1">
               Brain Auto Tech provides best Algo Software for you
-            </h1>
+            </h2>
           </div>
           <div className="md:w-[40%] w-full text-[#9b9aad] text-base p2">
             {`Explore our ALGO software for automated trading with a range of powerful strategies. Trade seamlessly across multiple brokers for maximum convenience and success in your investments.`}

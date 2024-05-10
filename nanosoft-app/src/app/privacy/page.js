@@ -11,13 +11,13 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
-        <div className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
+        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
           Privacy policy
-        </div>
+        </h1>
         <div className=" xl:px-[25%] px-[5%]">
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             Website Privacy Policy
-          </h1>
+          </h2>
           <p className="text-left text-[#555555] text-[1.75vh] pt-[10px] leading-loose">
             {`At Brain Auto Tech, one of our principle needs is the
           protection of our visitors. This Privacy Policy report contains sorts
@@ -25,16 +25,16 @@ const Page = () => {
           how we use it. If you have extra inquiries or require more data about
           our Privacy Policy, don't stop for a second to get in touch with us.`}
           </p>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             Consent
-          </h1>
+          </h2>
           <p className="text-left text-[#555555] text-[1.75vh] pt-[10px] leading-loose">
             By utilizing our site, you agree to our Privacy Policy and consent
             to its terms.
           </p>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             Information we collect
-          </h1>
+          </h2>
           <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
             The personal data that you are approached to give, and the reasons
             why you are approached to give it, will be clarified to you at the
@@ -52,9 +52,9 @@ const Page = () => {
             contact data, including things, for example, name, organization
             name, address, email address, and phone number.
           </li>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             How we use your information
-          </h1>
+          </h2>
           <li className="text-left text-[#555555] text-[1.75vh]  pt-[10px]">
             Give, work, and keep up our site.
           </li>
@@ -78,9 +78,9 @@ const Page = () => {
           <li className="text-left text-[#555555] text-[1.75vh]  pt-[10px]">
             Discover and prevent misrepresentation.
           </li>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             Log Files
-          </h1>
+          </h2>
           <p className="text-left text-[#555555] text-[1.75vh] pt-[10px] leading-loose">
             {`Brain Auto Tech follows a standard technique of utilizing log
           documents. All hosting organizations do this and a sort of hosting
@@ -91,9 +91,9 @@ const Page = () => {
           examining patterns, directing the webpage, following clients'
           development on the site, and assembling segment data.`}
           </p>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             Third Party Privacy Policies
-          </h1>
+          </h2>
           <p className="text-left text-[#555555] text-[1.75vh] pt-[10px] leading-loose">
             {`Brain Auto Tech Privacy Policy doesn't have any significant
           bearing to different sponsors or sites. In this way, we are
@@ -108,9 +108,9 @@ const Page = () => {
           management with explicit internet browsers, it tends to be found at
           the programs' particular sites. What Are Cookies?`}
           </p>
-          <h1 className="text-left text-[2vh] font-bold text-black pt-[10px]">
+          <h2 className="text-left text-[2vh] font-bold text-black pt-[10px]">
             (Do Not Sell My Personal Information)
-          </h1>
+          </h2>
           <li className="text-left text-[#555555] text-[1.75vh]  pt-[10px]">
             {`Request that a business that gathers a consumer's personal information
           uncover the categories and explicit bits of individual information
@@ -129,9 +129,9 @@ const Page = () => {
             you. In the event that you might want to practice any of these
             rights, it would be ideal if you get in touch with us.
           </p>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px]">
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px]">
             GDPR Data Protection Rights
-          </h1>
+          </h2>
           <p className="text-left text-[#555555] text-[1.75vh] pt-[10px] leading-loose">
             We might want to ensure you are completely aware of the entirety of
             your information security rights. Each client is qualified for the
@@ -172,7 +172,7 @@ const Page = () => {
             chance that you might want to practice any of these rights, feel
             free to get in touch with us.
           </p>
-          <h1 className="text-left text-[4vh] font-bold text-black pt-[30px] leading-loose">{`Children's Information`}</h1>
+          <h2 className="text-left text-[4vh] font-bold text-black pt-[30px] leading-loose">{`Children's Information`}</h2>
           <p className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
             Another part of our priority is including security for kids while
             utilizing the web. We urge parents and guardians to watch, take part

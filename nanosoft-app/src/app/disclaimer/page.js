@@ -12,13 +12,13 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
-        <div className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
+        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
           Disclaimer
-        </div>
+        </h1>
         <div className="px-[5%] xl:px-[25%]">
-          <h1 className="text-left text-[6vh] font-bold text-black   pt-[30px]">
+          <h2 className="text-left text-[6vh] font-bold text-black   pt-[30px]">
             Disclaimer
-          </h1>
+          </h2>
           <div className="text-lg">
             <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
               All subscription fees paid to Brain Auto Tech is not refundable.

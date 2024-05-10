@@ -11,13 +11,13 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
-        <div className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
+        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
           Refund Policy
-        </div>
+        </h1>
         <div className="px-[5%] xl:px-[25%]">
-          <h1 className="text-left text-[6vh] font-bold text-black   pt-[30px]">
+          <h2 className="text-left text-[6vh] font-bold text-black   pt-[30px]">
             Refund Policy
-          </h1>
+          </h2>
           <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
             On certain conditions we may initiate your refund.
           </li>

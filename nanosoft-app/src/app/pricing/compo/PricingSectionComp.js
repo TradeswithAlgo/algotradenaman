@@ -89,10 +89,10 @@ const PricingSectionComp = () => {
             HNI PLATFORM
           </button>
         </div>
-        <h1 className="text-4xl text-black py-8 text-center font-semibold">
+        <h2 className="text-4xl text-black py-8 text-center font-semibold">
           Choose a Plan That{" "}
           <span className="text-red-500">Works for You</span>
-        </h1>
+        </h2>
         <div className="w-full space-y-4 md:space-y-0 card-container md:w-[80%] mx-auto h-auto mb-10 flex justify-evenly flex-row items-center flex-wrap">
           <PricingCard
             type={"Monthly Software fees + GST"}

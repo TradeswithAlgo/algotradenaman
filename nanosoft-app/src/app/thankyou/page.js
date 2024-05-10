@@ -11,9 +11,9 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
-        <div className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[4vh] xl:text-[8vh]">
+        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[4vh] xl:text-[8vh]">
           Thank You
-        </div>
+        </h1>
         <div>
           <p className="text-center  text-black text-[3vh] pt-[10px] leading-loose font-medium">
             Thank You for showing Interest. We will get back to you shortly

@@ -102,9 +102,9 @@ function OurServicesSection({ setLoading, indexLoad }) {
         <p className="text-[#627792] font-semibold text-xs tracking-widest text-center">
           OUR SERVICES
         </p>
-        <h1 className="text-3xl font-bold text-center mt-2">
+        <h2 className="text-3xl font-bold text-center mt-2">
           Our Awesome Services
-        </h1>
+        </h2>
 
         <div className="w-full card-container md:w-[80%] mx-auto h-auto py-5 mt-7 flex justify-evenly flex-row items-center flex-wrap">
           {greyCardContent.map((greyCardProps, index) => (

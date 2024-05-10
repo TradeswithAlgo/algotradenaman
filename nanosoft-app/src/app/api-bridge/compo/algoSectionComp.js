@@ -78,17 +78,17 @@ const AlgoSection = () => {
           trade with various stages like Amibroker, MT4, TradingView, Python,
           Excel, NinjaTrader and so on.
         </p>
-        <h1 className="text-black font-bold text-3xl lg:text-left text-center">
+        <h2 className="text-black font-bold text-3xl lg:text-left text-center">
           API Bridge Features
-        </h1>
+        </h2>
         <ul className="space-y-2">
           {UlLiCompData.map((eleData, index) => (
             <UlLiComp {...eleData} key={index} />
           ))}
         </ul>
-        <h1 className="text-black font-bold text-3xl lg:text-left text-center">
+        <h2 className="text-black font-bold text-3xl lg:text-left text-center">
           Understanding How API Bridge Work
-        </h1>
+        </h2>
         <ol className="space-y-2">
           {OlLiCompData.map((eleData, index) => (
             <OlLiComp {...eleData} key={index} index={index} />

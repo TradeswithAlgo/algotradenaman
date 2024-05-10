@@ -23,9 +23,9 @@ function AppFormComp() {
           <BlobComp />
           <FormComp />
           <div className="px-[5%]">
-            <h1 className="text-left text-[6vh] font-bold text-black  pt-[30px]">
+            <h2 className="text-left text-[6vh] font-bold text-black  pt-[30px]">
               Contact Us
-            </h1>
+            </h2>
             <h2 className="text-left text-[3vh] font-bold text-black  pt-[30px]">
               Contact Information
             </h2>

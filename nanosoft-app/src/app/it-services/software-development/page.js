@@ -14,9 +14,9 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-2">
-        <div className="w-full bg-[#aee9e7] text-center flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh] ">
+        <h1 className="w-full bg-[#aee9e7] text-center flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh] ">
           IT-services - {ItServiceData[dataIndex].title}
-        </div>
+        </h1>
         <div className="w-full flex xl:flex-row flex-col-reverse">
           <RightPanelItService />
           <div className="flex xl:flex-row flex-col-reverse justify-between flex-shrink-0 w-full xl:w-3/4">

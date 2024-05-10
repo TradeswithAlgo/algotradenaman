@@ -87,9 +87,9 @@ function ContactUsSection({ setLoading, indexLoad }) {
       <p className="text-center text-black text-lg font-semibold">
         {`Let's get started`}
       </p>
-      <h1 className="text-center font-bold px-2 lg:px-[30%] text-4xl h1">
+      <h2 className="text-center font-bold px-2 lg:px-[30%] text-4xl h1">
         Embrace Brain Auto Tech for emotionless, efficient trading.
-      </h1>
+      </h2>
       <p className="text-center text-black px-[25%] text-lg tracking-wider p1">
         {`Let our web-based terminal do the heavy lifting.Unlock India's first
         auto robot trading terminal. Maximize profits with Money Machine and

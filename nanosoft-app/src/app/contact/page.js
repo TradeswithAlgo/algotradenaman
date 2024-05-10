@@ -30,19 +30,19 @@ const Page = () => {
       <Header1 />
 
       <div className="pt-[80px] ">
-        <div className="w-full flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
+        <h1 className="w-full flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
           Contact Us
-        </div>
+        </h1>
         <div className="lg:flex pt-[80px] xl:px-[5%] relative">
           <BlobComp />
           <FormComp />
           <div className="px-[5%]">
-            <h1 className="text-left text-[6vh] font-bold text-black  pt-[30px]">
+            <h2 className="text-left text-[6vh] font-bold text-black  pt-[30px]">
               Contact Us
-            </h1>
-            <h2 className="text-left text-[3vh] font-bold text-black  pt-[30px]">
-              Contact Information
             </h2>
+            <h3 className="text-left text-[3vh] font-bold text-black  pt-[30px]">
+              Contact Information
+            </h3>
             <div className="text-lg list-none">
               <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
                 <span className="text-red-500 font-bold fa">

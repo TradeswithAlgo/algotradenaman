@@ -45,10 +45,10 @@ const Aboutus = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-center text-[#0e2b5c] md:text-[4vh] text-[3vh] font-[700] text-wrap pt-[40px]">
+            <h2 className="text-center text-[#0e2b5c] md:text-[4vh] text-[3vh] font-[700] text-wrap pt-[40px]">
               {`Emotionless, automated trading with India's first web-based`}
               <br className="hidden md:block"></br> platform Brain Auto Tech.
-            </h1>
+            </h2>
             <div className="">
               <p className="font-medium  text-center pt-[20px] xl:px-[50vh] xl:leading-relaxed text-[#627792]">
                 {`Brain Auto Tech is always better than manual trading. Brain
