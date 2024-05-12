@@ -86,7 +86,7 @@ function FormComp() {
           );
           setTimeout(() => {
             thankYouPageRedirect.current.click();
-          }, 4000);
+          }, 500);
         } else {
           toast.error("Internal Server Error, 404!!", {
             duration: 4000,
