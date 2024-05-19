@@ -5,6 +5,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Strategy Development - Brain Auto Tech",
   description: "Brain Auto Tech",
+  alternates: {
+    canonical: "https://brainautotech.com/algo-services/strategy-development/",
+  },
 };
 
 export default function RootLayout({ children }) {

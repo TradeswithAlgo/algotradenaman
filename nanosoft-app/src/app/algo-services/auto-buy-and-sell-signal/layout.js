@@ -5,6 +5,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Auto Buy/Sell - Brain Auto Tech",
   description: "Brain Auto Tech",
+  alternates: {
+    canonical:
+      "https://brainautotech.com/algo-services/auto-buy-and-sell-signal/",
+  },
 };
 
 export default function RootLayout({ children }) {
