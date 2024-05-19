@@ -67,19 +67,7 @@ deployment:
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algo
-      $DEPLOYPATH
-    - >-
-      /bin/cp -R
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algo-services
-      $DEPLOYPATH
-    - >-
-      /bin/cp -R
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/api-bridge
-      $DEPLOYPATH
-    - >-
-      /bin/cp -R
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/auto
       $DEPLOYPATH
     - >-
       /bin/cp -R
@@ -132,10 +120,6 @@ deployment:
     - >-
       /bin/cp -R
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sls-images
-      $DEPLOYPATH
-    - >-
-      /bin/cp -R
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/strategy
       $DEPLOYPATH
     - >-
       /bin/cp -R
