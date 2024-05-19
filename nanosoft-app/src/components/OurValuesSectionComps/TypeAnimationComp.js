@@ -19,7 +19,7 @@ function TypeAnimationComp() {
       speed={30}
       deletionSpeed={30}
       repeat={Infinity}
-      wrapper="h1"
+      wrapper="h2"
       className="text-white font-bold text-xl lg:text-7xl text-center"
     />
   );

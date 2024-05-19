@@ -79,7 +79,7 @@ function Footer() {
                   ✧ IT services ✧
                 </li>
 
-                <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
+                <div className="text-[#566a8d] pt-[15px] flex-col font-medium">
                   <a
                     href="/it-services/web-development"
                     className="hover:underline block"
@@ -128,7 +128,7 @@ function Footer() {
                   ✧ Algo Services ✧
                 </li>
 
-                <div className="text-[#566a8d] pt-[15px] text-[15px] flex-col font-medium">
+                <div className="text-[#566a8d] pt-[15px]  flex-col font-medium">
                   <li className="hover:underline">
                     <a href="/api-bridge">➠ Api Bridge</a>
                   </li>

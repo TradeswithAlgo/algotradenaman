@@ -4,7 +4,7 @@ import UlLiCompAlgoSection from "@/components/AlgoServiceComp/UlLiCompAlgoSectio
 import React from "react";
 
 function SectionCompPara({ text }) {
-  return <p className="text-black lg:text-left text-center text-md">{text}</p>;
+  return <p className="text-black text-left">{text}</p>;
 }
 
 const SectionCompParaData = [

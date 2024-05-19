@@ -4,14 +4,14 @@ import UlLiCompAlgoSection from "@/components/AlgoServiceComp/UlLiCompAlgoSectio
 import React from "react";
 
 function SectionCompPara({ text }) {
-  return <p className="text-black lg:text-left text-center text-md">{text}</p>;
+  return <p className="text-black text-left">{text}</p>;
 }
 
 const SectionCompParaData = [
   {
-    text: `1 . Trading and Investment Strategy Development: ‎ We also develop automatic trading strategies for every segment including Option Premium Strategies on Tradingview and on other 8 trading softwares or servers in minimum costing. After strategy, you can take our platform for buy and sell of signals or indicators on the chart of your strategy according to your given parameters.
+    text: `1 . Trading and Investment Strategy Development: We also develop automatic trading strategies for every segment including Option Premium Strategies on Tradingview and on other 8 trading softwares or servers in minimum costing. After strategy, you can take our platform for buy and sell of signals or indicators on the chart of your strategy according to your given parameters.
     
-    
+
     MT4 and MT5 indicators, master advisors, calculators, and even 
     money management formulas are the main Trading tools. Most of these 
     tools are special indicators. These tools have one main objective, to 
@@ -19,7 +19,7 @@ const SectionCompParaData = [
   },
 
   {
-    text: `2. Trading and Investment servers: ‎  Currently we are providing strategy coding in 9 trading and investment platforms like Tradingview, Mt4, Amibroker, Chartink, Mt5, Stockmock, Algotest, Streak, Python and others. As per your choice you can ask us to develop your strategy on anyone. We develop trading and investment strategies on all these platforms.  
+    text: `2. Trading and Investment servers: Currently we are providing strategy coding in 9 trading and investment platforms like Tradingview, Mt4, Amibroker, Chartink, Mt5, Stockmock, Algotest, Streak, Python and others. As per your choice you can ask us to develop your strategy on anyone. We develop trading and investment strategies on all these platforms.  
     We at Brain Auto Tech with a group of expert MT4/MT5 
     software engineers to build up your trading strategy. Quite a long 
     while of experience committed to MT5 and MT4 programming promise you 
@@ -45,7 +45,7 @@ const SectionCompParaData = [
 
 const UlLiCompData = [
   {
-    title: `Expert Advisor Auto Trading Robot:`,
+    title: `Expert Advisor Auto Trading:`,
     description: `No compelling reason to invest time before trading 
     terminal. The EA consequently play out the trading tasks according 
     to your strategy.`,

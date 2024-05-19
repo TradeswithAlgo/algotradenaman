@@ -44,7 +44,7 @@ redefine cross-platform materials for enabled methods of empowerment. Uniquely i
     title: "Software Development",
     description: `Today's world is all about “Innovation or persuasion” 
     and the same is applicable across industries, including IT sector. 
-    With over 18+ years of experience, TatvaSoft has mastered the art of software designing and development.
+    With over 18+ years of experience, BrainAutoTech has mastered the art of software designing and development.
 
 We deliver customized solutions across the globe for a variety of clients 
 belonging from start-up levels to big enterprises. With vast domain knowledge 

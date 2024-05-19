@@ -15,10 +15,10 @@ const Page = () => {
           Thank You
         </h1>
         <div>
-          <p className="text-center  text-black text-[3vh] pt-[10px] leading-loose font-medium">
+          <div className="text-center  text-black text-[3vh] pt-[10px] leading-loose font-medium">
             Thank You for showing Interest. We will get back to you shortly
-          </p>
-          <p className="text-center  text-black text-[3vh] pt-[10px] leading-loose font-medium">
+          </div>
+          <div className="text-center  text-black text-[3vh] pt-[10px] leading-loose font-medium">
             Until Then, vist our{" "}
             <a href="/algo-services" className="font-bold text-[#4a52be]">
               algo-services
@@ -28,7 +28,7 @@ const Page = () => {
               it-services
             </a>{" "}
             pages!
-          </p>
+          </div>
         </div>
       </div>
       <hr className="pb-[30px]"></hr>

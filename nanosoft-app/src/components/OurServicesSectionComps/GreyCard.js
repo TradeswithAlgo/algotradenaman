@@ -7,9 +7,9 @@ function GreyCard({ title, description, imgSrc, footerNote, index, routing }) {
         index + 1
       }`}
     >
-      <h1 className="font-semibold text-[#0e2b5c] text-center text-xl">
+      <h2 className="font-semibold text-[#0e2b5c] text-center text-xl">
         {title}
-      </h1>
+      </h2>
       <p className="my-5 font-medium text-[#627792] text-center px-4">
         {description}
       </p>

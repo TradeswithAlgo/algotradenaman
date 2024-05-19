@@ -4,8 +4,8 @@ import React from "react";
 
 function UlLiComp({ text }) {
   return (
-    <li className="text-black lg:text-left text-center text-md">
-      <span className="font-bold text-red-500">&#10004;</span>
+    <li className="text-black text-left">
+      <span className="font-bold text-red-500 pr-2">&#10004;</span>
       {text}
     </li>
   );
@@ -13,7 +13,7 @@ function UlLiComp({ text }) {
 
 function OlLiComp({ text, index }) {
   return (
-    <li className="text-black lg:text-left text-center text-md">
+    <li className="text-black text-left">
       <span className="font-bold ">{index + 1}.</span> {text}
     </li>
   );
@@ -73,7 +73,7 @@ const AlgoSection = () => {
     <div className="pb-10 flex space-y-4 space-x-0 xl:space-y-0 xl:flex-row justify-between w-full flex-col-reverse">
       <AlgoServiceRightPanel />
       <div className="py-6 px-5 flex flex-col justify-between space-y-5 w-full xl:w-3/4">
-        <p className="text-black lg:text-left text-center text-md">
+        <p className="text-black text-left">
           API Bridge is a set of programming interface, pincode and Places is
           first programming interface right now. APIBridge permits you to algo
           trade with various stages like Amibroker, MT4, TradingView, Python,

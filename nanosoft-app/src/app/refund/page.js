@@ -18,20 +18,20 @@ const Page = () => {
           <h2 className="text-left text-[6vh] font-bold text-black   pt-[30px]">
             Refund Policy
           </h2>
-          <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
+          <li className="text-left text-[#555555] pt-[10px]">
             On certain conditions we may initiate your refund.
           </li>
-          <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
+          <li className="text-left text-[#555555] pt-[10px]">
             Wrong commitment from our executive side.
           </li>
-          <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
+          <li className="text-left text-[#555555] pt-[10px]">
             If we are unable to provide you or activate your service before 72
             hours.
           </li>
-          <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
+          <li className="text-left text-[#555555] pt-[10px]">
             Payment from the customer below 18 or 65+.
           </li>
-          <li className="text-left text-[#555555] text-[1.75vh] pt-[10px]">
+          <li className="text-left text-[#555555] pt-[10px]">
             {
               "If anyone from our company committed for Demate Handling services. (We do not provide demate handling / investment advisor or such type of services).."
             }
