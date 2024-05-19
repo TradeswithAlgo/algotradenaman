@@ -1,12 +1,13 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import metadataProps from "./metadataProps";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Brain Auto Tech",
-  description: "Brain Auto Tech",
+  title: metadataProps.home.title,
+  description: metadataProps.home.description,
   alternates: {
     canonical: "https://brainautotech.com/",
   },

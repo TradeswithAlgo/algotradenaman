@@ -1,11 +1,12 @@
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import metadataProps from "../metadataProps";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Contact Us - Brain Auto Tech",
-  description: "Brain Auto Tech",
+  title: metadataProps.contact.title,
+  description: metadataProps.contact.description,
   alternates: {
     canonical: "https://brainautotech.com/contact/",
   },

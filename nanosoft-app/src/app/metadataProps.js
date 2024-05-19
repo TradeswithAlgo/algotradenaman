@@ -1,4 +1,4 @@
-const metadata = {
+const metadataProps = {
   home: {
     title:
       "Innovative AI-Powered Solutions for Trading & Investment - BrainAutoTech",
@@ -133,7 +133,7 @@ function removeNewLineCharAndExtraSpaces(metadataObj) {
 }
 
 // console.log(metadata);
-removeNewLineCharAndExtraSpaces(metadata);
+removeNewLineCharAndExtraSpaces(metadataProps);
 // console.log(metadata);
 
-export default metadata;
+export default metadataProps;

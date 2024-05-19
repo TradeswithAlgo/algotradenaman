@@ -1,10 +1,11 @@
+import metadataProps from "@/app/metadataProps";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Auto Buy/Sell - Brain Auto Tech",
-  description: "Brain Auto Tech",
+  title: metadataProps.algoServices.autoBuyAndSell.title,
+  description: metadataProps.algoServices.autoBuyAndSell.description,
   alternates: {
     canonical:
       "https://brainautotech.com/algo-services/auto-buy-and-sell-signal/",
