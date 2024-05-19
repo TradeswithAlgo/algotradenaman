@@ -19,37 +19,7 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
-      url: "https://brainautotech.com/algo",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
-      url: "https://brainautotech.com/algo-services",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
-      url: "https://brainautotech.com/api-bridge",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
-      url: "https://brainautotech.com/auto",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
       url: "https://brainautotech.com/disclaimer",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
-      url: "https://brainautotech.com/it-services",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
@@ -79,12 +49,6 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
-      url: "https://brainautotech.com/strategy",
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.8,
-    },
-    {
       url: "https://brainautotech.com/terms",
       lastModified: new Date(),
       changeFrequency: "yearly",
@@ -92,6 +56,42 @@ export default function sitemap() {
     },
     {
       url: "https://brainautotech.com/thankyou",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://brainautotech.com/algo-services",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://brainautotech.com/algo-services/algo-trading",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://brainautotech.com/algo-services/api-bridge",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://brainautotech.com/algo-services/auto-buy-and-sell-signal",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://brainautotech.com/algo-services/strategy-development",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.8,
+    },
+    {
+      url: "https://brainautotech.com/it-services",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,

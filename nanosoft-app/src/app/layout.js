@@ -6,7 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Brain Auto Tech",
-  description: "Brain Auto Tech", 
+  description: "Brain Auto Tech",
+  alternates: {
+    canonical: "https://brainautotech.com/",
+  },
 };
 
 export default function RootLayout({ children }) {

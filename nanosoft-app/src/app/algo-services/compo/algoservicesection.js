@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from 'react'
+import React from 'react'
 import GreyCard1 from './algoservicescomp/GreyCard2'
 import Algoservicescontent from '@/data/AlgoServices/algoserviesdata';
 

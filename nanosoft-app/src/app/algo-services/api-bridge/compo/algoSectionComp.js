@@ -70,8 +70,9 @@ const OlLiCompData = [
 
 const AlgoSection = () => {
   return (
-    <div className="pt-[30px] pb-10 px-[10%] flex flex-col space-y-4 space-x-0 lg:space-y-0 lg:flex-row lg:space-x-4 justify-between">
-      <div className="flex flex-col justify-between space-y-5">
+    <div className="pb-10 flex space-y-4 space-x-0 xl:space-y-0 xl:flex-row justify-between w-full flex-col-reverse">
+      <AlgoServiceRightPanel />
+      <div className="py-6 px-5 flex flex-col justify-between space-y-5 w-full xl:w-3/4">
         <p className="text-black lg:text-left text-center text-md">
           API Bridge is a set of programming interface, pincode and Places is
           first programming interface right now. APIBridge permits you to algo
@@ -94,9 +95,6 @@ const AlgoSection = () => {
             <OlLiComp {...eleData} key={index} index={index} />
           ))}
         </ol>
-      </div>
-      <div className="">
-        <AlgoServiceRightPanel />
       </div>
     </div>
   );
