@@ -61,7 +61,7 @@ const Itservicessection = () => {
           </h2>
           <div className="space-y-3 py-6">
             {algoServiceData1.map((ele, index) => (
-              <p className="text-black text-left">{ele.text}</p>
+              <p key={index} className="text-black text-left">{ele.text}</p>
             ))}
           </div>
           <h2 className="text-black font-bold text-2xl">
@@ -69,7 +69,7 @@ const Itservicessection = () => {
           </h2>
           <div className="space-y-3 py-6">
             {algoServiceData2.map((ele, index) => (
-              <p className="text-black text-left">
+              <p key={index} className="text-black text-left">
                 <span className="font-bold">{ele.title} - </span>
                 {ele.text}
               </p>
