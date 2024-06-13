@@ -4,7 +4,11 @@ function SidePopup() {
   return (
     <div className="fixed z-[100] w-auto right-0 -translate-y-1/2 top-1/2 h-auto ">
       <div className="flex flex-col justify-evenly space-y-2 py-2 items-center pr-1">
-        <a href="https://brainautotech.gitbook.io/intro/" target="_blank" title="Brain Auto Tech Docs">
+        <a
+          href="https://brainautotech.gitbook.io/intro/"
+          target="_blank"
+          title="Brain Auto Tech Docs"
+        >
           <div className="h-10 w-10 bg-yellow-600 rounded-full flex items-center justify-evenly cursor-pointer duration-300 ease-in-out hover:bg-slate-700 hover:!invert-0">
             <img
               src="https://img.icons8.com/?size=128&id=GGrH2vfl6xO1&format=png"
@@ -22,7 +26,7 @@ function SidePopup() {
             />
           </div>
         </a>
-        <a href="https://wa.me/919691315858"target="_blank" title="WhatsApp">
+        <a href="https://wa.me/919179042671" target="_blank" title="WhatsApp">
           <div className="h-10 w-10 bg-white rounded-full flex items-center justify-evenly cursor-pointer fill-green-600 duration-300 ease-in-out hover:!fill-slate-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"

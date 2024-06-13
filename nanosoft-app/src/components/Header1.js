@@ -276,14 +276,14 @@ const Header1 = () => {
                 </nav>
               </div>
               <div className="mt-6 flex  items-center gap-2 text-white">
-                <a
+                {/* <a
                   href="https://forms.gle/L1KEL9ms1DGKM9Vf9"
                   target="_blank"
                   className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full
                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 flex justify-center"
                 >
                   KYC
-                </a>
+                </a> */}
                 <a
                   href="https://login.brainautotech.com/login"
                   target="_blank"
@@ -306,32 +306,26 @@ const Header1 = () => {
         </Popover.Panel>
       </Transition>
       <div className="hidden lg:flex lg:gap-[20px] text-white">
-        <a
+        {/* <a
           href="https://forms.gle/L1KEL9ms1DGKM9Vf9"
           target="_blank"
-          className="mr-2 font-bold "
+          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]"
         >
-          <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]">
-            KYC
-          </button>
-        </a>
+          KYC
+        </a> */}
         <a
           href="https://login.brainautotech.com/login"
           target="_blank"
-          className="mr-2 font-bold"
+          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]"
         >
-          <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]">
-            Login
-          </button>
+          Login
         </a>
         <a
           href="https://login.brainautotech.com/signup"
           target="_blank"
-          className="font-bold"
+          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]"
         >
-          <button className="bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh]  font-light rounded-xl text-[13px]">
-            Register
-          </button>
+          Register
         </a>
       </div>
     </Popover>

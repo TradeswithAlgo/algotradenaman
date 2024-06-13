@@ -232,7 +232,7 @@ const CTA = ({ type }) => {
         >
           Contact us
         </a>
-        <a
+        {/* <a
           href="/contact"
           target="_blank"
           className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
@@ -245,7 +245,7 @@ const CTA = ({ type }) => {
           className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
         >
           Try Now
-        </a>
+        </a> */}
       </div>
     </MovingComponent>
   );
