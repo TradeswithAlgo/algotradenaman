@@ -124,7 +124,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[6vh] font-[800] text-white mt-0">
-                        And Investment Stratigies
+                        And Investment Strategies
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -137,7 +137,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[50px] text-[4vh] font-medium text-white">
-                        Fully Automated Stratigies
+                        Fully Automated Strategies
                       </p>
                     </MovingComponent>
                     <CTA type="middle" />

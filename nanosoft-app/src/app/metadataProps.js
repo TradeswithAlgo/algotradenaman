@@ -5,7 +5,7 @@ const metadataProps = {
     description: `Explore our advanced ALGO software, 
     featuring powerful strategies for seamless trading 
     across multiple brokers. Achieve maximum convenience and 
-    success in your investments with BrainAutoTech. &#128222; +91 9691315858`,
+    success in your investments with BrainAutoTech. &#128222; +91 9179042673`,
   },
   algoServices: {
     title:
