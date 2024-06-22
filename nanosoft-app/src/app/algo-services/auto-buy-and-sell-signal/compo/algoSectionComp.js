@@ -9,49 +9,53 @@ function SectionCompPara({ text }) {
 
 const SectionCompParaData = [
   {
-    text: `You could know precisely when to purchase, hold or sell stocks or 
-    commodities. Auto Buy Sell signal programming software is an interesting and 
-    extraordinary tool for the brokers, investors and examiners in Financial markets. 
-    It has in-fabricated control arrangement of altering with the three targets set for 
-    trading dependent on Market conduct consequently with no human intervention.`,
+    text: `An auto buy and sell signal in algo trading refers to a robust system that uses algorithms to analyze
+market data and condition, and generate automated signals that indicate when to buy or sell a
+particular asset. These signals are triggered based on certain criteria that are set by the algorithm, which
+could include numerous conditions, such as historical data analysis, technical indicators and statistical
+models.`,
   },
 
   {
-    text: `We are providing 100% exact programmed purchase sell signals software for trading. 
-    Our product is working in all section in mcx, ncdex, currency, equity,future and so forth all. 
-    Our items have been given Complete Artificial Intelligence as respect to setting different parameters 
-    for Trading in various contents.`,
+    text: `At Brain Auto Tech, we offer auto buy and sell services in algo trading that give a powerful way to boost
+your trading speed and efficiency. Our cutting-edge software programs are aimed to send 100%
+accurate signals, helping traders make informed decisions without having to manually analyze the
+market and losing out profitable opportunities. Here are some key features of our auto buy and sell
+services.`,
   },
+];
+
+const SectionCompParaData1 = [
   {
-    text: `Moving average is one of the best indicators utilized in auto purchase sell 
-    signal technical analysis chart programming. Moving average is made by processing the 
-    normal cost of a share or commodity over a particular number of periods.`,
-  },
-  {
-    text: `Our framework with the help of constant information, in market time 
-    you will get continuous purchase/sell signals from Commodity Market (MCX), NSE 
-    and Aimed for Professional Traders, because of its straightforwardness and effortlessness 
-    to comprehend, individuals who don't have any related knowledge in Trading can trade with 
-    trading framework can support you and can make great income`,
+    text: ` Whether you are a beginner looking to get started in the trading market or an experienced trader
+seeking to enhance your strategy, contact Brain Auto Tech today to leverage our auto buy and sell
+services to navigate the trading market confidently.`,
   },
 ];
 
 const UlLiCompData = [
   {
-    title: `Easy Customization :`,
-    description: `Easy To Install And Easy To Use.`,
+    title: `Real-time Signal Generation :`,
+    description: `This feature involves regular analysis of the market data to generate buy and sell signals in real time.
+Using indicators like moving averages, MACD and RSI, the algorithm can provide accurate and timely
+signals, allowing you to capitalize on market opportunities.`,
   },
   {
-    title: `Popup and sound alerts :`,
-    description: `Dont Waste Time In Buying Tips.`,
+    title: `Customization and Personalization :`,
+    description: `The trading signal can be tailored to match the specific trading preferences and strategies of the traders.
+Traders can set personal trading hours, risk tolerance, signal frequency and asset preferences based on
+individual goals and risk appetite.`,
   },
   {
-    title: `High Accuracy :`,
-    description: `The Reduced risk of manual errors when placing trades.`,
+    title: `Automated Trade Execution :`,
+    description: `Our auto buy and sell signals also facilitate the automated execution of trades, which saves time and
+reduces manual intervention in the trading process. This feature can be seamlessly integrated with
+different trading platforms and brokerage accounts.`,
   },
   {
-    title: `Support :`,
-    description: `Get support from our professionals who better understands the whole structure.`,
+    title: `Analytics and Reporting :`,
+    description: `Traders can get detailed analysis and reporting on the performance of trade signals and execute orders.
+The system can help you track the success rate, so you can analyze and refine your trading strategies.`,
   },
 ];
 
@@ -71,6 +75,9 @@ const AlgoSection = () => {
             <UlLiCompAlgoSection {...eleData} key={index} />
           ))}
         </ul>
+        {SectionCompParaData1.map((eleData, index) => (
+          <SectionCompPara {...eleData} key={index} />
+        ))}
       </div>
     </div>
   );

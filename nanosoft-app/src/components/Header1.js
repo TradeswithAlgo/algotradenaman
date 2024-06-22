@@ -316,14 +316,14 @@ const Header1 = () => {
         <a
           href="https://login.brainautotech.com/login"
           target="_blank"
-          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]"
+          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[85px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[2vh]"
         >
           Login
         </a>
         <a
           href="https://login.brainautotech.com/signup"
           target="_blank"
-          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[80px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[13px]"
+          className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[85px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[2vh]"
         >
           Register
         </a>

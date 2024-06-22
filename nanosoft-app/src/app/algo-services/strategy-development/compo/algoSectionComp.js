@@ -9,63 +9,62 @@ function SectionCompPara({ text }) {
 
 const SectionCompParaData = [
   {
-    text: `1 . Trading and Investment Strategy Development: We also develop automatic trading strategies for every segment including Option Premium Strategies on Tradingview and on other 8 trading softwares or servers in minimum costing. After strategy, you can take our platform for buy and sell of signals or indicators on the chart of your strategy according to your given parameters.
-    
-
-    MT4 and MT5 indicators, master advisors, calculators, and even 
-    money management formulas are the main Trading tools. Most of these 
-    tools are special indicators. These tools have one main objective, to 
-    assist brokers with estimating future value changes.`,
+    text: `Successful algo trading commences with the critical step of identifying opportunities and crafting
+efficient strategies that yield profitable results. At Brain Auto Tech, we specialize in developing
+comprehensive algo strategies designed to meet the unique needs of the traders. Our dedicated team
+leverages advanced technology and innovative mathematical models to deliver solutions that drive
+consistent performance and facilitate effective risk management.`,
   },
 
   {
-    text: `2. Trading and Investment servers: Currently we are providing strategy coding in 9 trading and investment platforms like Tradingview, Mt4, Amibroker, Chartink, Mt5, Stockmock, Algotest, Streak, Python and others. As per your choice you can ask us to develop your strategy on anyone. We develop trading and investment strategies on all these platforms.  
-    We at Brain Auto Tech with a group of expert MT4/MT5 
-    software engineers to build up your trading strategy. Quite a long 
-    while of experience committed to MT5 and MT4 programming promise you 
-    to get a MQL4 Expert Advisor (EA), an Indicator or a Script as per 
-    your desires. No Need to break down the Market Status profoundly by 
-    the Trader.`,
+    text: `Algorithmic trading strategies are primarily classified into various types based on their underlying
+approaches and principles. Here are some main strategies that we can help you deploy.`,
   },
+];
+
+const SectionCompParaData1 = [
   {
-    text: `There is no presence of manual intercession, fear, 
-    selfness and panic won't come into Auto trading. EA avoids 
-    troubles of the trading and it conveys the peaceful trade to 
-    the dealers and financial specialists.`,
+    text: `These are some strategies that we work with at Brain Auto Tech. Each type of strategy requires a set of
+data, tools and expertise to be developed and deployed effectively. You can combine multiple elements
+from different strategies to create adaptive and robust trading systems.`,
   },
+
   {
-    text: `You can utilize MQL4 to make custom indicators and contents 
-    other than Expert Advisors. Custom pointers are full analogs to 
-    worked in specialized indicators. They are essential for breaking 
-    down value elements of financial instruments and indicating trade 
-    alerts. And, if accessible specialized indicators aren't sufficient, 
-    you can make your own.`,
+    text: `Whether you are a financial institution or an individual trader, we have the right expertise to help you
+succeed in this fast-paced world of algo trading. Get in touch with us today.`,
   },
 ];
 
 const UlLiCompData = [
   {
-    title: `Expert Advisor Auto Trading:`,
-    description: `No compelling reason to invest time before trading 
-    terminal. The EA consequently play out the trading tasks according 
-    to your strategy.`,
+    title: `Trend-Following Strategy :`,
+    description: `One of the most common strategies in algo trading is the trend-following
+strategy, which relies on the current market trends, such as breakouts, moving averages and relative
+strength index (RSI). This is comparatively straightforward to implement, without requiring predictive
+forecasting.`,
   },
   {
-    title: `Scripts :`,
-    description: `Scripts are smallest programs that robotize 
-    every now and again rehashed activities. We can program custom s
-    cripts for you. Script executed just once.`,
+    title: `Arbitrage Trading Strategy :`,
+    description: `Arbitrage strategies aim to identify and capitalize on price differences of
+the same asset across different markets. This strategy relies on mathematical and statistical data to
+identify instances when the price of one asset seems to change with respect to another asset.`,
   },
   {
-    title: `Indicators :`,
-    description: `We give MT4 and MT5 Indicator programming services. 
-    Indicators are utilized to ascertain and show the data in visual 
-    structure.`,
+    title: `Mean Reversion Strategy :`,
+    description: `This strategy involves identifying price deviations and assuming that the
+price will revert to their average or mean levels over time. The assets are sold when the prices go above
+the upper limit and bought when the prices go below the lower limit.`,
   },
   {
-    title: `Security :`,
-    description: `Get support from our professionals who better 
-    understands the whole structure.`,
+    title: `Mathematical-based Strategy :`,
+    description: `This strategy relies specifically on mathematical and statistical
+equations to predict market changes and make profitable trading decisions.`,
+  },
+  {
+    title: `Volume and Time Weighted Average Price :`,
+    description: `This strategy breaks down large orders into smaller parts
+based on specific time slots and historical volumes. It aims to process orders at an average price within a
+defined price range or when it comes close to the volume-weighted average price.`,
   },
 ];
 
@@ -85,6 +84,9 @@ const AlgoSection = () => {
             <UlLiCompAlgoSection {...eleData} key={index} />
           ))}
         </ul>
+        {SectionCompParaData1.map((eleData, index) => (
+          <SectionCompPara {...eleData} key={index} />
+        ))}
       </div>
     </div>
   );

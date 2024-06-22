@@ -9,48 +9,65 @@ function SectionCompPara({ text }) {
 
 const SectionCompParaData = [
   {
-    text: `Algo Trading is a type of automated trading that utilizes PC programs to examine market 
-    data dependent on pre-characterized parameters.`,
+    text: `Algo trading refers to a method of using computer algorithms to automate the process of financial
+trading. A predefined set of rules are provided to a computer program, and the orders are executed
+when those conditions are met. The trades are processed to maximize speed, efficiency and accuracy,
+while reducing human intervention.`,
   },
 
   {
-    text: `It places trades on the terminal and submits to exchange directly thereby reducing human or 
-    manual invention. It will help us to taking automatic decisions and execution, reducing time to act and 
-    avoiding human emotions from coming into play while trading by using MetaTrader4 and MetaTrader5.`,
+    text: `At Brain Auto Tech, we offer exceptional algorithmic trading services designed to empower investors
+and traders. Our cutting-edge algorithms, created by a team of experts, provide incredible speed,
+efficiency and precision in executing trades. Here are some algo trading services we offer:`,
+  },
+];
+
+const SectionCompParaData1 = [
+  {
+    text: `At Brain Auto Tech, we are committed to helping you transform the way you trade. Contact us today to
+learn how you can unlock full trading potential and achieve your desired financial goals.`,
+  },
+
+  {
+    link: `https://chatgpt.com/c/aebd1b2e-1508-4d4f-9876-e7106e785d0e`,
   },
   {
-    text: `We will provide you the best platform for doing Auto Trading with your own Intra day and 
-    positional based strategies which will save your money and time by Controlling your any emotion and 
-    manual intervention. We convert your strategies & logics through our code.`,
-  },
-  {
-    text: `Functioning with software, a computer program will automatically monitor the stock price 
-    (and the moving average indicators) and place the buy and sell orders when the defined conditions are met. 
-    The trader no longer needs to screen live costs and charts or put in the orders manually. The algorithmic trading 
-    system does this automatically by effectively and accurately identifying the trading opportunity.`,
-  },
-  {
-    text: `Algo trading is beneficial for short-term,long-term and every kind of 
-    investors due to its number of benefits mentioned below-`,
+    link: `https://support.zerodha.com/category/trading-and-markets/kite-web-and-mobile/kite-
+api/articles/what-is-algo-trading`,
   },
 ];
 
 const UlLiCompData = [
   {
-    title: `Reasonable price :`,
-    description: `Trades are executed at the best possible price.`,
+    title: `Automated Algo Trading :`,
+    description: `Our algorithms automatically perform buy and sell orders based on predefined criteria, such as price,
+quantity and timing, without or with minimal human intervention.`,
   },
   {
-    title: `Errorless :`,
-    description: `Reduced risk of manual errors when placing trades.`,
+    title: `Strategies :`,
+    description: `Our algo trading services include using common strategies, such as trend following, scalping, statistical
+arbitrage, market monitoring and so on. Each strategy has its own rules and objectives.`,
   },
   {
-    title: `Zero mistake :`,
-    description: `Reduced the possibility of mistakes by human traders based on emotional and psychological factors.`,
+    title: `Fast and Reliable :`,
+    description: `Our algorithms are designed to process market data and execute trade in fractions of a second, which is
+faster than manual trading.`,
   },
   {
-    title: `Efficiency :`,
-    description: `Trades are timed correctly and instantly to avoid significant price changes.`,
+    title: `Customization and Flexibility :`,
+    description: `Our algorithms can be easily customized to suit specific trading preferences, goals and strategies of the
+traders. The flexibility enables the creation of tailored approaches based on different market conditions.`,
+  },
+  {
+    title: `Seamless Integration with Trading Platforms :`,
+    description: `Our algo trading services can be integrated with trading platforms to facilitate direct market access
+(DMA) and smooth order execution.`,
+  },
+  {
+    title: `Backtesting :`,
+    description: `Our algo trading algorithms are usually backtested against historical data values to assess and optimize
+their performance. This ensures your trading platform reaps profitable results in similar market
+conditions.`,
   },
 ];
 
@@ -70,6 +87,13 @@ const AlgoSection = () => {
             <UlLiCompAlgoSection {...eleData} key={index} />
           ))}
         </ul>
+        {SectionCompParaData1.map((eleData, index) =>
+          "text" in eleData ? (
+            <SectionCompPara {...eleData} key={index} />
+          ) : (
+            <a key={index} className="block text-left text-blue-400" href={eleData.link} target="_blank">{eleData.link}</a>
+          )
+        )}
       </div>
     </div>
   );
