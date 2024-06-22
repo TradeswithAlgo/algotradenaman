@@ -7,20 +7,20 @@ function SidePopup() {
   const [isOpen, setIsOpen] = useState(null);
   return (
     <>
-    <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait">
         {isOpen !== null && (
           <PopUp {...popUpsData[isOpen]} setIsOpen={setIsOpen} />
         )}
       </AnimatePresence>
-    <div className="fixed z-[100] w-auto left-0 -translate-y-1/2 top-1/2 h-auto ">
-      <div className="flex flex-col justify-evenly space-y-2 py-2 items-center pr-1">
-        <div onClick={() => setIsOpen(7)}>
-          <div className="h-10 w-10 bg-blue-800 text-white text-xl font-bold rounded-full flex items-center justify-evenly cursor-pointer duration-300 ease-in-out hover:bg-slate-700">
-            ISO
+      <div className="fixed z-[100] w-auto left-0 transform origin-bottom-left rotate-90 -translate-y-1/2 top-[36%] h-auto ">
+        <div className="flex flex-col justify-evenly items-center">
+          <div onClick={() => setIsOpen(7)}>
+            <div className="p-3 bg-green-400 text-white text-xl font-extrabold rounded-full cursor-pointer duration-300 ease-in-out hover:bg-green-700">
+              ISO Certificate
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </>
   );
 }
