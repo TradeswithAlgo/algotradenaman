@@ -83,6 +83,10 @@ deployment:
       $DEPLOYPATH
     - >-
       /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/iso
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/it-services
       $DEPLOYPATH
     - >-
