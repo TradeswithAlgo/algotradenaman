@@ -81,8 +81,12 @@ and bug-free. We focus on providing the most secure in-app purchases to ensure t
     the prices of various instruments like https://www.softwareview.com/symbols/CBOT_MINI-YM1!/ and EUR USD LINK 
     https://www.softwareview. . Can track easily. .com/symbols/EURUSD/ We will need links to Dow futures and EUR USD.
     And fill the form from your company on this link - (https://in.softwareview.com/advanced-charts/).`,
-    imgSrc:
-      "/popup/Partners.jpeg",
+    imgSrc: "/popup/Partners.jpeg",
+  },
+  {
+    title: "ISO Certification",
+    description: ``,
+    imgSrc: "/iso/iso_cert.jpg",
   },
 ];
 

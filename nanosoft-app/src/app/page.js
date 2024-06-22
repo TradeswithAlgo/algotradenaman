@@ -8,6 +8,7 @@ import OurServicesSection from "@/components/OurServicesSection";
 import OurValuesSection from "@/components/OurValuesSection";
 import PurpleCardSection from "@/components/PurpleCardSection";
 import SidePopup from "@/components/SidePopup";
+import SidePopupR from "@/components/SidePopupR";
 import SlidingHeroSection from "@/components/SlidingHeroSection";
 import Testimonials from "@/components/Testimonials";
 import { AnimatePresence } from "framer-motion";
@@ -53,6 +54,7 @@ export default function Home() {
         <LoadGoogleAdsIframe />
 
         <SidePopup />
+        <SidePopupR />
         <Header1 />
 
         <AnimatePresence mode="wait">
