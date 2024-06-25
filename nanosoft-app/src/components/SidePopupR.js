@@ -15,7 +15,7 @@ function SidePopup() {
       <div className="fixed z-[100] w-auto left-0 transform origin-bottom-left rotate-90 -translate-y-1/2 top-[36%] h-auto ">
         <div className="flex flex-col justify-evenly items-center">
           <div onClick={() => setIsOpen(7)}>
-            <div className="p-3 bg-green-400 text-white text-xl font-extrabold rounded-full cursor-pointer duration-300 ease-in-out hover:bg-green-700">
+            <div className="p-3 bg-green-400 text-white text-xl font-extrabold rounded-t-3xl cursor-pointer duration-300 ease-in-out hover:bg-green-700">
               ISO Certificate
             </div>
           </div>
