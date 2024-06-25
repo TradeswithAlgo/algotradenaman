@@ -27,13 +27,6 @@ services, traders can improve their trading, enhance strategies and achieve over
   {
     text: `Contact us if you are looking for cutting-edge API bridge services to achieve your desired trading goals.`,
   },
-  {
-    link: `https://chatgpt.com/c/6f97397e-fef6-4ffd-84db-6958469f9fe4`,
-  },
-  {
-    link: `https://medium.com/@a1advanceinfo/introduction-to-api-bridge-in-algo-trading-exploring-the-
-concept-and-its-significance-in-the-7d7c5af96b5f`,
-  },
 ];
 
 const UlLiCompData = [

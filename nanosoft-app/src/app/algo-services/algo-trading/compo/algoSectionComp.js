@@ -27,14 +27,6 @@ const SectionCompParaData1 = [
     text: `At Brain Auto Tech, we are committed to helping you transform the way you trade. Contact us today to
 learn how you can unlock full trading potential and achieve your desired financial goals.`,
   },
-
-  {
-    link: `https://chatgpt.com/c/aebd1b2e-1508-4d4f-9876-e7106e785d0e`,
-  },
-  {
-    link: `https://support.zerodha.com/category/trading-and-markets/kite-web-and-mobile/kite-
-api/articles/what-is-algo-trading`,
-  },
 ];
 
 const UlLiCompData = [
