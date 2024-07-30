@@ -14,7 +14,7 @@ function LoadGoogleAdsScript() {
     j.async = true;
     j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
     f.parentNode.insertBefore(j, f);console.log("Hi");
-  })(window, document, "script", "dataLayer", "GTM-MQMK27LN");`}}/>
+  })(window, document, "script", "dataLayer", "GTM-N4QV5QGL");`}}/>
   );
 }
 
