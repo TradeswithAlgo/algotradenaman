@@ -25,8 +25,14 @@ function Footer() {
                 Brain Auto Tech is a leading algorithmic <br></br>software
                 provider, revolutionizing the future of <br></br>automation with
                 cutting-edge solutions.
-                <br></br>CIN NO: U62013MP2024PTC069897
-                <br></br>GSTN NO: 23AAMCB3515A1ZB
+                <br></br>
+                <span className="font-bold cursor-pointer hover:font-black transition-all duration-300 ease-out">
+                  CIN NO: U62013MP2024PTC069897
+                </span>
+                <br></br>
+                <span className="font-bold cursor-pointer hover:font-black transition-all duration-300 ease-out">
+                  GSTN NO: 23AAMCB3515A1ZB
+                </span>
               </p>
               <div className="flex justify-start gap-4 items-start pb-8 pl-[10px]">
                 <a
