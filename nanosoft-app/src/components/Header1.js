@@ -154,9 +154,9 @@ const Header1 = () => {
             href="https://brainautotech.gitbook.io/intro/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mr-2 text-center relative tracking-[1px] font-sans font-bold text-white pt-[6px] bg-[#1676e4] duration-300 hover:bg-slate-700 xl:w-[85px] lg:w-[50px] h-[4vh] rounded-xl text-[2vh]"
+            className="text-center relative tracking-[1px] font-sans font-bold text-white pt-[6px] bg-[#1676e4] duration-300 hover:bg-slate-700 xl:w-[140px] lg:w-[50px] h-[4vh] rounded-xl text-[2vh]"
           >
-            Help
+            Help Center
           </a>
         </div>
       </div>
