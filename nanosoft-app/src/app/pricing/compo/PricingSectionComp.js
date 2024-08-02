@@ -132,7 +132,7 @@ const PricingSectionComp = () => {
             } font-bold`}
             onClick={() => setSelectPricing("stockOptions")}
           >
-            Stock Options
+            STOCK OPTIONS
           </button>
           <button
             className={`block text-lg ${
@@ -140,7 +140,7 @@ const PricingSectionComp = () => {
             } font-bold`}
             onClick={() => setSelectPricing("equityFuture")}
           >
-            {`Equity & Future`}
+            {`EQUITY & FUTURE`}
           </button>
         </div>
         <h2 className="text-4xl text-black py-8 text-center font-semibold">
