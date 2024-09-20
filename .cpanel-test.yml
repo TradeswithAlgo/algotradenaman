@@ -24,10 +24,6 @@ deployment:
     - >-
       /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
-      with algo-4.png $DEPLOYPATH
-    - >-
-      /bin/cp
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
       with algo-5.png $DEPLOYPATH
     - >-
       /bin/cp
@@ -60,6 +56,10 @@ deployment:
     - >-
       /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/index.txt
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/logogo.jpeg
       $DEPLOYPATH
     - >-
       /bin/cp
