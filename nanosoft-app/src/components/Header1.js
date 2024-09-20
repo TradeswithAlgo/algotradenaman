@@ -22,9 +22,9 @@ const Header1 = () => {
       }
     >
       <a href="/" className="cursor-pointer outline-none border-none">
-        <img src="/sidelogoplustext.PNG" width={160} />
+        <img src="Trades with algo-6.png" width={250} />
       </a>
-      <div className="grow ">
+      <div className="grow">
         <div className="hidden lg:flex items-center justify-center gap-2 md:gap-8 font-semibold">
           <a href="/" className="textdesign hover:cursor-pointer">
             Home
@@ -182,7 +182,7 @@ const Header1 = () => {
           focus
           className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition xl:hidden z-[100] "
         >
-          <div className="rounded-lg bg-[#aee9e7] !text-[#102b5c] shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 ">
+          <div className="rounded-lg bg-[#aee9e7] !text-[#060606] shadow-lg ring-1 ring-black ring-opacity-5 divide-y-2 divide-gray-50 ">
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <a href="/" className="cursor-pointer outline-none border-none">
@@ -202,74 +202,74 @@ const Header1 = () => {
                 <nav className="grid gap-y-5 text-white font-bold text-center">
                   <a
                     href="/"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Home
                   </a>
                   <a
                     href="/about"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     About
                   </a>
                   <a
                     href="/it-services"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     IT-Services
                   </a>
                   <a
                     href="/algo-services"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Algo-Services
                   </a>
                   <a
                     href="/pricing"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Pricing
                   </a>
                   <a
                     href="/payment"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Payment
                   </a>
                   <a
                     href="/disclaimer"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Disclaimer
                   </a>
                   <a
                     href="/privacy"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Privacy Policy
                   </a>
                   <a
                     href="/terms"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Terms and Condition
                   </a>
                   {/* <a
                     href="/refund"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Refund Policy
                   </a> */}
                   <a
                     href="/contact"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Contact
                   </a>
                   <a
                     href="https://brainautotech.gitbook.io/intro/"
                     target="_blank"
-                    className="focus:outline-none focus:ring-2 !text-[#102b5c] focus:ring-inset focus:ring-gray-500 px-2"
+                    className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Help Center
                   </a>
@@ -285,7 +285,7 @@ const Header1 = () => {
                   KYC
                 </a> */}
                 <a
-                  href="https://login.brainautotech.com/login"
+                  href="##"
                   target="_blank"
                   className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full
                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 active:bg-gray-100 flex justify-center"
@@ -293,7 +293,7 @@ const Header1 = () => {
                   Login
                 </a>
                 <a
-                  href="https://login.brainautotech.com/signup"
+                  href="##"
                   target="_blank"
                   className="rounded-md bg-purple-500 px-4 py-2 text-sm font-bold  md:text-xl w-full
                focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 active:bg-gray-100 flex justify-center"
@@ -314,14 +314,14 @@ const Header1 = () => {
           KYC
         </a> */}
         <a
-          href="https://login.brainautotech.com/login"
+          href="##"
           target="_blank"
           className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[85px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[2vh]"
         >
           Login
         </a>
         <a
-          href="https://login.brainautotech.com/signup"
+          href="##"
           target="_blank"
           className="mr-2 text-center pt-1 bg-[#f4511d] duration-300 hover:bg-slate-700 xl:w-[85px] lg:w-[50px] h-[4vh] font-light rounded-xl text-[2vh]"
         >

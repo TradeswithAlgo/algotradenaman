@@ -17,7 +17,7 @@ models.`,
   },
 
   {
-    text: `At Brain Auto Tech, we offer auto buy and sell services in algo trading that give a powerful way to boost
+    text: `At Trades with Algo, we offer auto buy and sell services in algo trading that give a powerful way to boost
 your trading speed and efficiency. Our cutting-edge software programs are aimed to send 100%
 accurate signals, helping traders make informed decisions without having to manually analyze the
 market and losing out profitable opportunities. Here are some key features of our auto buy and sell
@@ -28,7 +28,7 @@ services.`,
 const SectionCompParaData1 = [
   {
     text: ` Whether you are a beginner looking to get started in the trading market or an experienced trader
-seeking to enhance your strategy, contact Brain Auto Tech today to leverage our auto buy and sell
+seeking to enhance your strategy, contact Trades with Algo today to leverage our auto buy and sell
 services to navigate the trading market confidently.`,
   },
 ];

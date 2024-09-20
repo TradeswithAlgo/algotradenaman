@@ -16,7 +16,7 @@ function AppFormComp() {
   return (
     <>
       <div className="pt-[20px] ">
-        <div className="w-full flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
+        <div className="w-full flex justify-center items-center h-[35vh] text-[#060606] font-[999] text-[5vh] xl:text-[8vh]">
           Contact Us
         </div>
         <div className="lg:flex pt-[40px] xl:px-[5%] relative">
@@ -34,14 +34,14 @@ function AppFormComp() {
                 <span className="text-red-500 font-bold fa">
                   <FontAwesomeIcon icon={faPhone} />
                 </span>{" "}
-                <a href="tel:9179042673"> : +91 9179042673</a>
+                <a href="tel:9179042673"> : +91 8827772751</a>
               </li>
               <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
-                <a href="mailto:Braintechintelligence@gmail.com">
+                <a href="mailto:info@tradeswithalgo.com">
                   <span className="text-red-500 font-bold">
                     <FontAwesomeIcon icon={faEnvelope} />
                   </span>{" "}
-                  : brainautotech1902@gmail.com
+                  : info@tradeswithalgo.com
                 </a>
               </li>
               <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
@@ -49,7 +49,7 @@ function AppFormComp() {
                   <FontAwesomeIcon icon={faMapMarkerAlt} />{" "}
                 </span>
                 <a href="/contact/#mapcont">
-                  : Sai kripa colony, Radisson square, Indore,<br></br> Madhya
+                  : Scheme No. 136, Brilliant Convention Centre, Indore,<br></br> Madhya
                   Pradesh 452010
                 </a>
               </li>

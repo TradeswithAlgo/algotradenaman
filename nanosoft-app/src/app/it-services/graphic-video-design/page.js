@@ -14,7 +14,7 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-2">
-        <h1 className="w-full bg-[#aee9e7] text-center flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh] ">
+        <h1 className="w-full bg-[#aee9e7] text-center flex justify-center items-center h-[35vh] text-[#060606] font-[999] text-[5vh] xl:text-[8vh] ">
           {ItServiceData[dataIndex].title}
         </h1>
         <div className="w-full flex xl:flex-row flex-col-reverse">

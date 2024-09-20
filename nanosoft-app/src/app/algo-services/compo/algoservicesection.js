@@ -5,14 +5,14 @@ import Algoservicescontent from '@/data/AlgoServices/algoserviesdata';
 
 const algoServiceData1 = [
   {
-    text: `Maximize your stock trading potential with Brain Auto Tech algo trading services that are designed to
+    text: `Maximize your stock trading potential with Trades with Algo algo trading services that are designed to
 enhance your trading performance. Whether you are a quantitative analyst, seasoned trader or a
 financial institution, our best and simple algorithmic software provides everything you need to succeed
 in the fast-paced financial markets and make huge profits.`,
   },
 
   {
-    text: `At Brain Auto Tech, we believe successful trading heavily depends on accuracy, strategy and speed. Our
+    text: `At Trades with Algo, we believe successful trading heavily depends on accuracy, strategy and speed. Our
 free algo trading software is built to give investors and traders the edge they need by leveraging state-
 of-the-art technology, flawless algorithms and comprehensive data analysis.`,
   },

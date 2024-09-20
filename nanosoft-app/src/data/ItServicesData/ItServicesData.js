@@ -53,7 +53,7 @@ and in-depth technological expertise, we are capable enough to cater needs of ou
   },
   {
     title: "Game Development",
-    description: `Brain Auto Tech believes in developing games 
+    description: `Trades with Algo believes in developing games 
     with attractive UI that highly engage your targeted customers. We develop 
     games for two of the most widely used mobile platforms: Android OS and iOS. 
     Moreover, we are a game development agency that explicitly focuses on your craziest 
@@ -76,7 +76,7 @@ and bug-free. We focus on providing the most secure in-app purchases to ensure t
   },
   {
     title: "Partners",
-    description: `Brain Auto Tech has partnered with softwareView for their charting solution. 
+    description: `Trades with Algo has partnered with softwareView for their charting solution. 
     A social software platform that provides an exceptional charting experience through which users can track 
     the prices of various instruments like https://www.softwareview.com/symbols/CBOT_MINI-YM1!/ and EUR USD LINK 
     https://www.softwareview. . Can track easily. .com/symbols/EURUSD/ We will need links to Dow futures and EUR USD.

@@ -120,7 +120,7 @@ function PurpleCardSection({ setLoading, indexLoad }) {
               OUR COMPANY
             </p>
             <h2 className="text-white text-2xl font-bold h1">
-              Brain Auto Tech provides best Algo Software for you
+              Trades with Algo provides best Algo Software for you
             </h2>
           </div>
           <div className="md:w-[40%] w-full text-[#9b9aad] text-base p2">

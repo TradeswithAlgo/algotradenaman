@@ -12,7 +12,7 @@ function LoadingScreen() {
         opacity: 0,
         scale: 8,
         transition: {
-          duration: 1,
+          duration: 2,
           type: "spring",
           velocity: 2,
           // delay: 1,
@@ -28,7 +28,7 @@ function LoadingScreen() {
           <img
             alt=""
             className="w-full h-full object-cover animate-spinaround"
-            src="/image/Logo_with_text.png"
+            src="/image/Trades with algo-4.png"
           />
         </div>
       </motion.div>

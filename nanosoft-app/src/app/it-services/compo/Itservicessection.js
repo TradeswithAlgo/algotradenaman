@@ -7,13 +7,13 @@ import GreyCard1 from "./Itservicescompos/GreyCard1";
 
 const itServiceData1 = [
   {
-    text: `As a leading IT development service provider, Brain Auto Tech can transform your business with robust
+    text: `As a leading IT development service provider, Trades with Algo can transform your business with robust
 and scalable IT solutions. Elevate your business with our innovative IT services that are guaranteed to
 bring more customers and boost your sales.`,
   },
 
   {
-    text: `At Brain Auto Tech, we use the most advanced and agile methodology to create visually appealing
+    text: `At Trades with Algo, we use the most advanced and agile methodology to create visually appealing
 websites and mobile apps that attract your audience and reflect your brand identity, while ensuring fast
 time-to-market. Our unwavering commitment to creating end-to-end software solutions can enhance
 your brand value and elevate the dependability and scalability of our software solutions.`,
@@ -23,7 +23,7 @@ your brand value and elevate the dependability and scalability of our software s
 const itServiceData2 = [
   {
     title: "Experienced Developers",
-    text: `Auto Brain Tech is backed by seasoned developers who are well-versed in
+    text: `Trades with Algo is backed by seasoned developers who are well-versed in
 working with top-notch IT technologies. They have a proven track record of delivering high-performing
 web development projects.`,
   },
@@ -67,7 +67,7 @@ const Itservicessection = () => {
             ))}
           </div>
           <h2 className="text-black font-bold text-2xl">
-            Why Choose Brain Auto Tech as an IT Development Partner?
+            Why Choose Trades with Algo as an IT Development Partner?
           </h2>
           <div className="space-y-3 py-6">
             {itServiceData2.map((ele, index) => (

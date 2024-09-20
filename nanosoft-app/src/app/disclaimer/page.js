@@ -12,7 +12,7 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
-        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[5vh] xl:text-[8vh]">
+        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#060606] font-[999] text-[5vh] xl:text-[8vh]">
           Disclaimer
         </h1>
         <div className="px-[5%] xl:px-[25%]">
@@ -21,7 +21,7 @@ const Page = () => {
           </h2>
           <div className="text-lg">
             <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
-              All subscription fees paid to Brain Auto Tech is not refundable.
+              All subscription fees paid to Trades with Algo is not refundable.
               We do not provide trading tips nor are we investment adviser.
             </li>
             <li className="text-left text-[#555555]   p1  font-medium  pt-[5px]">
@@ -43,7 +43,7 @@ const Page = () => {
               <li className="pt-[5px] ">
                 Past performance of advise/strategy/model does not indicate the
                 future performance of any current or future strategy/model or
-                advise by Brain Auto Tech Trades and actual returns may differ
+                advise by Trades with Algo Trades and actual returns may differ
                 significantly from that depicted herein due to various factors
                 including but not limited to impact costs, expense charged,
                 timing of entry/exit, timing of additional flows/redemptions,

@@ -41,7 +41,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                 backgroundImage: `url('/sls-images/1.jpeg')`,
               }}
             >
-              <div className="w-full h-full bg-blue-700/50">
+              <div className="w-full h-full">
                 <div className="flex justify-center xl:pt-[120px] pt-[5vh] mx-[2px]">
                   <div className="gap-[-10px]">
                     <MovingComponent
@@ -54,7 +54,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <h1 className="xl:text-[50px] text-[4vh] font-medium text-white">
-                        Best <br className="block xl:hidden"></br>ALGO Software
                       </h1>
                     </MovingComponent>
                     <MovingComponent
@@ -67,7 +66,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[7vh] font-[800] text-white">
-                        Best
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -80,7 +78,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[7vh] font-[800] text-white">
-                        in the Market.
                       </p>
                     </MovingComponent>
                     <CTA />
@@ -98,7 +95,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                 backgroundImage: `url('/sls-images/2.jpeg')`,
               }}
             >
-              <div className="w-full h-full bg-blue-700/50">
+              <div className="w-full h-full">
                 <div className="flex justify-center xl:pl-[20px] xl:pt-[120px] xl:justify-start pt-[5vh] pl-[1vh]">
                   <div className="flex-col justify-start">
                     <MovingComponent
@@ -111,7 +108,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[6vh] font-[800] text-white">
-                        Multiple Trading
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -124,7 +120,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[6vh] font-[800] text-white mt-0">
-                        And Investment Strategies
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -137,7 +132,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[50px] text-[4vh] font-medium text-white">
-                        Fully Automated Strategies
                       </p>
                     </MovingComponent>
                     <CTA type="middle" />
@@ -155,7 +149,7 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                 backgroundImage: `url('/sls-images/3.jpeg')`,
               }}
             >
-              <div className="w-full h-full bg-blue-700/50">
+              <div className="w-full h-full">
                 <div className="flex xl:justify-end justify-center xl:pt-[120px] xl:pr-[20px]  pt-[5vh] ">
                   <div className="xl:gap-[-10px] flex-col justify-start">
                     <MovingComponent
@@ -168,8 +162,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[50px] text-[4.5vh] font-medium text-white">
-                        Easy to <br className="block xl:hidden"></br>Use
-                        Software
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -182,7 +174,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[7.5vh] font-[800] text-white">
-                        Multiple Brokers
                       </p>
                     </MovingComponent>
                     <MovingComponent
@@ -195,7 +186,6 @@ function SlidingHeroSection({ setLoading, indexLoad }) {
                       fillMode="forwards"
                     >
                       <p className="xl:text-[95px] text-[7.5vh] font-[800] text-white">
-                        Supported.
                       </p>
                     </MovingComponent>
                     <CTA />
@@ -228,9 +218,8 @@ const CTA = ({ type }) => {
       >
         <a
           href="/contact"
-          className="bg-[#f4511d]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
+          className="bg-[#0606060]  contact-us-but cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black text-sm p-3 xl:p-6 xl:text-xl font-bold rounded-lg text-white"
         >
-          Contact us
         </a>
         {/* <a
           href="/contact"

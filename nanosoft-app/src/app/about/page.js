@@ -15,7 +15,7 @@ const Aboutus = () => {
         <div className="pt-[80px] flex justify-center items-center bg-[#aee9e7]  h-[42vh] xl:h-[60vh] w-full ">
           <div className="">
             <h1 className="text-[#0e2b5c] md:text-[8vh] text-[6vh] font-[800] text-center tracking-[1px]">
-              About Brain Auto Tech
+              About Trades with Algo
             </h1>
             <p className="text-center xl:text-[2vh] text-[1.5vh] text-[#627792] tracking-[1px] text-pretty font-semibold">
               We are Providing Algo Software is one of the most leading software
@@ -47,21 +47,21 @@ const Aboutus = () => {
             </div>
             <h2 className="text-center text-[#0e2b5c] md:text-[4vh] text-[3vh] font-[700] text-wrap pt-[40px]">
               {`Emotionless, automated trading with India's first web-based`}
-              <br className="hidden md:block"></br> platform Brain Auto Tech.
+              <br className="hidden md:block"></br> platform Trades with Algo.
             </h2>
             <div className="">
               <p className="font-medium  text-center pt-[20px] xl:px-[50vh] xl:leading-relaxed text-[#627792]">
-                {`Brain Auto Tech is always better than manual trading. Brain
+                {`Trades with Algo is always better than manual trading. Brain
               Auto Tech is fully automatic trading without any manual
               intervention. It is a emotionless trading which is very important
               thing while trading because most of the time we loose money due to
-              emotions. Our web-based Brain Auto Tech terminal works with
+              emotions. Our web-based Trades with Algo terminal works with
               the leading brokers of India who those are providing facilities of
               API based trading. It is very simple system which gives your
               relief from watching charts all the time and it saves much time to
-              do other tasks. Brain Auto Tech is India's First Auto robot
+              do other tasks. Trades with Algo is India's First Auto robot
               trading terminal which is based on a web-browser. It is preloaded
-              with the best Brain Auto Tech Such as Money Machine and
+              with the best Trades with Algo Such as Money Machine and
               Eagle trading system.`}
               </p>
             </div>

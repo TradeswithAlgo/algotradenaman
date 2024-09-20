@@ -3,8 +3,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Terms & Condition - Brain Auto Tech",
-  description: "Brain Auto Tech",
+  title: "Terms & Condition - Trades with Algo",
+  description: "Trades with Algo",
   alternates: {
     canonical: "https://brainautotech.com/terms/",
   },

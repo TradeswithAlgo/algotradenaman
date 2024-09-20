@@ -10,7 +10,7 @@ function SectionCompPara({ text }) {
 const SectionCompParaData = [
   {
     text: `Successful algo trading commences with the critical step of identifying opportunities and crafting
-efficient strategies that yield profitable results. At Brain Auto Tech, we specialize in developing
+efficient strategies that yield profitable results. At Trades with Algo, we specialize in developing
 comprehensive algo strategies designed to meet the unique needs of the traders. Our dedicated team
 leverages advanced technology and innovative mathematical models to deliver solutions that drive
 consistent performance and facilitate effective risk management.`,
@@ -24,7 +24,7 @@ approaches and principles. Here are some main strategies that we can help you de
 
 const SectionCompParaData1 = [
   {
-    text: `These are some strategies that we work with at Brain Auto Tech. Each type of strategy requires a set of
+    text: `These are some strategies that we work with at Trades with Algo. Each type of strategy requires a set of
 data, tools and expertise to be developed and deployed effectively. You can combine multiple elements
 from different strategies to create adaptive and robust trading systems.`,
   },

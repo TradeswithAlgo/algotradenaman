@@ -7,6 +7,10 @@ deployment:
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod.tar
     - >-
       /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/.DS_Store
+      $DEPLOYPATH
+    - >-
+      /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/404.html
       $DEPLOYPATH
     - >-
@@ -15,11 +19,35 @@ deployment:
       $DEPLOYPATH
     - >-
       /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
+      with algo-3.png $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
+      with algo-4.png $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
+      with algo-5.png $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
+      with algo-6.png $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
+      with algo.png $DEPLOYPATH
+    - >-
+      /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/braintechlogo.PNG
       $DEPLOYPATH
     - >-
       /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/favicon.ico
+      $DEPLOYPATH
+    - >-
+      /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/form.png
       $DEPLOYPATH
     - >-
       /bin/cp

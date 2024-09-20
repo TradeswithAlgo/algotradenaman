@@ -11,7 +11,7 @@ const Page = () => {
       <LoadGoogleAdsIframe />
       <Header1 />
       <div className="pt-[80px] pb-[30px]">
-        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#102b5c] font-[999] text-[4vh] xl:text-[8vh]">
+        <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#060606] font-[999] text-[4vh] xl:text-[8vh]">
           Terms & Condition
         </h1>
         <div className="px-[5%] xl:px-[25%]">
@@ -19,7 +19,7 @@ const Page = () => {
             Terms & Condition
           </h2>
           <p className="text-left text-black pt-[10px] leading-loose font-medium">
-            {'Dear Client, Welcome to "Brain Auto Tech ".'}
+            {'Dear Client, Welcome to "Trades with Algo ".'}
           </p>
           <p className="text-left text-black pt-[10px] leading-loose font-medium">
             {

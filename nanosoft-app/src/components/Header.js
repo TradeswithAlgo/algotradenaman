@@ -18,10 +18,10 @@ function Header() {
   return (
     <Navbar className="pt-6 px-[20px] fixed bg-white pb-6 z-[100]">
       <NavbarBrand>
-        <p className="font-bold text-inherit">BrainTech</p>
+        <p className="font-bold text-inherit">TradeswithAlgo</p>
       </NavbarBrand>
       <NavbarContent
-        className="hidden sm:flex  font-semibold gap-[10vh] text-[#032b5f] text-[17px]"
+        className="hidden sm:flex  font-semibold gap-[10vh] text-[#060606] text-[17px]"
         justify="center"
       >
         <NavbarItem>

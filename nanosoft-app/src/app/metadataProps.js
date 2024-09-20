@@ -106,7 +106,7 @@ const metadataProps = {
   },
   about: {
     title:
-      "Brain Auto Tech: Emotionless Auto Trading Terminal  - BrainAutoTech",
+      "Trades with Algo: Emotionless Auto Trading Terminal  - BrainAutoTech",
     description: `Learn about our innovative solutions and commitment to your success. 
     Discover how we can help you achieve your goals with cutting-edge technology.`,
   },
