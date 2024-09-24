@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/brainautotech/public_html
+    - export DEPLOYPATH=/home/tradeswithalgo/public_html
     - /bin/tar -xf compiled-prod.tar
     - /bin/cp -R ./compiled-prod-code/* $DEPLOYPATH 
