@@ -15,7 +15,7 @@ function LoadingScreen() {
           duration: 1,
           type: "spring",
           velocity: 2,
-          // delay: 1,
+          // delay: 2,
           // damping: 300,
           ease: "easeInOut",
         },
@@ -28,7 +28,7 @@ function LoadingScreen() {
           <img
             alt=""
             className="w-full h-full object-cover animate-spinaround"
-            src="/image/logogo.jpeg"
+            src="Trades with algo-6.png"
           />
         </div>
       </motion.div>

@@ -7,7 +7,7 @@ export const metadata = {
   title: metadataProps.algoServices.strategyDevelopment.title,
   description: metadataProps.algoServices.strategyDevelopment.description,
   alternates: {
-    canonical: "https://brainautotech.com/algo-services/strategy-development/",
+    canonical: "https://tradeswithalgo.com/algo-services/strategy-development/",
   },
 };
 

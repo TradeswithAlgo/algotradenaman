@@ -1,163 +1,167 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tradeswithalgo/public_html
+    - export DEPLOYPATH=/home/brainautotech/public_html
     - >-
       /bin/tar -xf
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod.tar
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod.tar
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/.DS_Store
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/.DS_Store
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/404.html
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/404.html
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/Textonly.png
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Textonly.png
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/Trades
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
       with algo-3.png $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/Trades
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
       with algo-5.png $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/Trades
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
       with algo-6.png $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/Trades
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
       with algo.png $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/braintechlogo.PNG
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/braintechlogo.PNG
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/favicon.ico
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/favicon.ico
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/form.png
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/form.png
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/icon.ico
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/icon.ico
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/index.html
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/index.html
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/index.txt
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/index.txt
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/logogo.jpeg
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/logogo.png
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/next.svg
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/next.svg
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/robots.txt
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/robots.txt
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/sidelogoplustext.PNG
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sidelogoplustext.PNG
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/sitemap.xml
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sitemap.xml
       $DEPLOYPATH
     - >-
       /bin/cp
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/vercel.svg
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/vercel.svg
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/404
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/404
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/_next
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/_next
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/about
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/about
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/algo-services
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/about-us
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/contact
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algo-services
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/disclaimer
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/contact
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/image
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/disclaimer
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/iso
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/image
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/it-services
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/iso
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/iws-section
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/it-services
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/payment
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/iws-section
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/pcs-images
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/payment
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/popup
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/pcs-images
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/pricing
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/popup
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/privacy
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/pricing
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/refund
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/privacy
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/sliderimages
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/refund
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/sls-images
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sliderimages
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/terms
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/sls-images
       $DEPLOYPATH
     - >-
       /bin/cp -R
-      /home/tradeswithalgo/repositories/algotradenaman/compiled-prod-code/thankyou
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/terms
+      $DEPLOYPATH
+    - >-
+      /bin/cp -R
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/thankyou
       $DEPLOYPATH

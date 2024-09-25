@@ -6,7 +6,7 @@ export const metadata = {
   title: "Privacy Policy - Trades with Algo",
   description: "Trades with Algo",
   alternates: {
-    canonical: "https://brainautotech.com/privacy/",
+    canonical: "https://tradeswithalgo.com/privacy/",
   },
 };
 

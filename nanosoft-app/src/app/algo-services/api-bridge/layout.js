@@ -7,7 +7,7 @@ export const metadata = {
   title: metadataProps.algoServices.apiBridge.title,
   description: metadataProps.algoServices.apiBridge.description,
   alternates: {
-    canonical: "https://brainautotech.com/algo-services/api-bridge/",
+    canonical: "https://tradeswithalgo.com/algo-services/api-bridge/",
   },
 };
 

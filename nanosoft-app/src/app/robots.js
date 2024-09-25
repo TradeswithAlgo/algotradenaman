@@ -28,6 +28,6 @@ export default function robots() {
         "/it-services/web-development",
       ],
     },
-    sitemap: "https://brainautotech.com/sitemap.xml",
+    sitemap: "https://tradeswithalgo.com/sitemap.xml",
   };
 }

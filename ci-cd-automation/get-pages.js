@@ -7,7 +7,7 @@ const data3 = data2.map(ele => {
       fs.lstatSync(`../nanosoft-app/src/app/it-services/${ele}`).isDirectory()
     ) {
       return `{
-      url: "https://brainautotech.com/it-services/${ele}",
+      url: "https://tradeswithalgo.com/it-services/${ele}",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,},`;

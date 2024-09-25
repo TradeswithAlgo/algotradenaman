@@ -6,7 +6,7 @@ export const metadata = {
   title: "Thank You - Trades with Algo",
   description: "Trades with Algo",
   alternates: {
-    canonical: "https://brainautotech.com/thankyou/",
+    canonical: "https://tradeswithalgo.com/thankyou/",
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata = {
   description: metadataProps.algoServices.autoBuyAndSell.description,
   alternates: {
     canonical:
-      "https://brainautotech.com/algo-services/auto-buy-and-sell-signal/",
+      "https://tradeswithalgo.com/algo-services/auto-buy-and-sell-signal/",
   },
 };
 

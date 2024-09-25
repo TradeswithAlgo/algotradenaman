@@ -28,18 +28,18 @@ const Aboutus = () => {
             <div className="flex flex-col md:flex-row justify-center items-center gap-[5vh] px-[3vh] xl:px-[40vh]">
               <div>
                 <img
-                  src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/05/283-pai4685-jj-id-392158-jpeg1-1000x852.jpg"
+                  src="https://iili.io/dLRMnX1.md.png"
                   className="rounded-md shadow-2xl hover:-translate-y-3 transition-transform duration-300 ease-out"
                 />
               </div>
               <div className="flex-row ">
                 <img
-                  src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/05/26-jj-t-05282_2-id-140411-jpeg1-1000x400.jpg"
+                  src="https://iili.io/dLRVun9.md.png"
                   className="rounded-md shadow-2xl hover:-translate-y-3 transition-transform duration-300 ease-out"
                 />
                 <div className="pt-[45px]">
                   <img
-                    src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/05/rawpixel-com-567026-unsplash1-1000x400.jpg"
+                    src="https://iili.io/dLRWXxS.md.png"
                     className="rounded-md shadow-2xl hover:-translate-y-3 transition-transform duration-300 ease-out"
                   />
                 </div>
@@ -51,8 +51,7 @@ const Aboutus = () => {
             </h2>
             <div className="">
               <p className="font-medium  text-center pt-[20px] xl:px-[50vh] xl:leading-relaxed text-[#627792]">
-                {`Trades with Algo is always better than manual trading. Brain
-              Auto Tech is fully automatic trading without any manual
+                {`Trades with Algo is always better than manual trading. Trades with Algo is fully automatic trading without any manual
               intervention. It is a emotionless trading which is very important
               thing while trading because most of the time we loose money due to
               emotions. Our web-based Trades with Algo terminal works with

@@ -6,7 +6,7 @@ export const metadata = {
   title: "Refund Policy - Trades with Algo",
   description: "Trades with Algo",
   alternates: {
-    canonical: "https://brainautotech.com/refund/",
+    canonical: "https://tradeswithalgo.com/refund/",
   },
 };
 

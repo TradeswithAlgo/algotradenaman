@@ -77,9 +77,9 @@ const Header1 = () => {
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
-          <a href="/pricing" className="textdesign cursor-pointer">
+          {/* <a href="/pricing" className="textdesign cursor-pointer">
             Pricing
-          </a>
+          </a> */}
           <a href="/payment" className="textdesign hover:cursor-pointer">
             Payment
           </a>
@@ -150,14 +150,14 @@ const Header1 = () => {
           <a href="/contact" className="textdesign">
             Contact
           </a>
-          <a
+          {/* <a
             href="https://brainautotech.gitbook.io/intro/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-center relative tracking-[1px] font-sans font-bold text-white pt-[6px] bg-[#1676e4] duration-300 hover:bg-slate-700 xl:w-[140px] lg:w-[50px] h-[4vh] rounded-xl text-[2vh]"
           >
             Help Center
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="flex items-center justify-end lg:hidden">
@@ -265,13 +265,13 @@ const Header1 = () => {
                     className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
                     Contact
-                  </a>
+                  {/* </a>
                   <a
                     href="https://brainautotech.gitbook.io/intro/"
                     target="_blank"
                     className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                   >
-                    Help Center
+                    Help Center */}
                   </a>
                 </nav>
               </div>

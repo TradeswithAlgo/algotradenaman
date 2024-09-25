@@ -19,21 +19,21 @@ const Page = () => {
             <div>
               <div className="shadow-xl w-fit p-[40px] text-[2vh] rounded-xl text-[#6a6a6a] hover:-translate-y-3 transition-transform duration-300 ease-out">
                 <div className="flex justify-center pb-[10px] ">
-                  <img src="/image/icici bank.png" width={250} className="" />
+                  <img src="" width={250} className="" />
                 </div>
                 <p className="p-[12px] font-medium">
-                  <span className=" font-bold">Bank Name:-</span> ICICI BANK
+                  <span className=" font-bold">Bank Name:-</span> ##############
                 </p>
                 <p className="p-[12px] font-medium">
                   <span className=" font-bold">Account Name :-</span>{" "}
-                  BRAINAUTOTECH PRIVATE LIMITED
+                  Trades With Algo
                 </p>
                 <p className="p-[12px] font-medium">
                   <span className=" font-bold">Account Number :- </span>
-                  004105021241
+                  ##############
                 </p>
                 <p className="p-[12px] font-medium">
-                  <span className=" font-bold">IFSC Code :-</span> ICIC0000041
+                  <span className=" font-bold">IFSC Code :-</span> ##############
                 </p>
               </div>
               <div className="shadow-xl w-full p-[30px] rounded-xl mt-[50px] hover:-translate-y-3 transition-transform duration-300 ease-out">
@@ -41,7 +41,7 @@ const Page = () => {
               </div>
             </div>
             <div className="shadow-2xl p-[20px] w-fit h-fit rounded-2xl mt-[50px] xl:mt-0 hover:-translate-y-3 transition-transform duration-300 ease-out">
-              <img src="/image/newqr.jpeg" width={450} />
+              <img src="" width={450} />
             </div>
           </div>
         </div>
