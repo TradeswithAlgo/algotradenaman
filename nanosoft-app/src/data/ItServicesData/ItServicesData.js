@@ -86,7 +86,7 @@ and bug-free. We focus on providing the most secure in-app purchases to ensure t
   {
     title: "ISO Certification",
     description: ``,
-    imgSrc: "/iso/iso_cert.jpg",
+    imgSrc: "",
   },
 ];
 

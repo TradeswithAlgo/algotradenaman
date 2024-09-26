@@ -15,6 +15,11 @@ const Page = () => {
           <h1 className="w-full bg-[#aee9e7] flex justify-center items-center h-[35vh] text-[#060606] font-[999] text-[5vh] xl:text-[8vh]">
             Payment
           </h1>
+          <p className="text-center xl:text-[4vh] text-[1.5vh] text-[#000000] tracking-[1px] text-pretty font-semibold">
+          Please note: Only make payments to the official bank details provided below. 
+          Any other accounts are fraudulent and should be reported immediately. 
+          Stay safe from scams!
+            </p>
           <div className="md:flex justify-center gap-[5vh] pt-[30px] pb-[30px] px-[5%] xl:px-0">
             <div>
               <div className="shadow-xl w-fit p-[40px] text-[2vh] rounded-xl text-[#6a6a6a] hover:-translate-y-3 transition-transform duration-300 ease-out">

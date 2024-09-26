@@ -19,7 +19,7 @@ function Footer() {
           <div className="flex justify-center">
             <div className="flex-row  ">
               <a href="/" className="cursor-pointer outline-none border-none">
-                <img src="form.png" width={300} />
+                <img src="https://iili.io/dLQRu2f.md.png" width={300} />
               </a>
               <p className="pb-[30px] pt-[10px] text-[#060606] pl-[12px]">
                 Trades with Algo is a leading algorithmic <br></br>software

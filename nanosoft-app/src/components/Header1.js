@@ -22,7 +22,7 @@ const Header1 = () => {
       }
     >
       <a href="/" className="cursor-pointer outline-none border-none">
-        <img src="Trades with algo-6.png" width={250} />
+        <img src="https://iili.io/dLQu6SR.md.png" width={220} />
       </a>
       <div className="grow">
         <div className="hidden lg:flex items-center justify-center gap-2 md:gap-8 font-semibold">
