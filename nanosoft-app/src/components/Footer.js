@@ -145,7 +145,7 @@ function Footer() {
                     <a href="/auto">➠ Auto Buy & Sell signals</a>
                   </li>
                   <li className="hover:underline">
-                    <a href="/strategy">➠ Stratergy Development</a>
+                    <a href="/strategy">➠ Strategy Development</a>
                   </li>
                 </div>
               </ul>
