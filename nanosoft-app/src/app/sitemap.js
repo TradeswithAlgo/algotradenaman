@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: "https://brainautotech.com",
+      url: "https://tradeswithalgo.com",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,

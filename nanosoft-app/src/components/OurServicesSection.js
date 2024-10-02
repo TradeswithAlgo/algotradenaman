@@ -139,10 +139,10 @@ function OurServicesSection({ setLoading, indexLoad }) {
             CONSULT YOUR INVESTMENT ADVISOR BEFORE INVESTING.
           </p>
           <p className="text-center font-semibold animate-pulse">
-            {"BrainAutotech ISN'T LIABLE FOR YOUR PROFITS OR LOSSES."}
+            {"Trades with Algo ISN'T LIABLE FOR YOUR PROFITS OR LOSSES."}
           </p>
           <p className="text-center font-semibold animate-pulse">
-            ALL THE FEES PAID TO BrainAutoTech IS NON - REFUNDABLE. Any dispute
+            ALL THE FEES PAID TO TRADES WITH ALGO IS NON - REFUNDABLE. Any dispute
             arising under these terms and conditions shall be subject to the
             Indore, M.P. jurisdiction only.
           </p>
