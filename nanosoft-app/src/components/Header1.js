@@ -23,8 +23,7 @@ const Header1 = () => {
         <div className="relative h-full w-full flex items-center">
           <div className="absolute flex items-center animate-scroll">
             <p className="text-lg font-bold whitespace-nowrap">
-            ⚠️ Please make payments only to bank accounts with the name "Trades with Algo"—whether through barcode, UPI, or bank details. Ensure the company name is present.  
-⚠️ Important: Beware of scammers! Only trust official communications and payment details from Trades with Algo.
+            ⚠️ Please make payments only to bank accounts with the name "Trades with Algo"—whether through barcode, UPI, or bank details. Ensure the company name is present.  ⚠️ Important: Beware of scammers! Only trust official communications and payment details from Trades with Algo.
             </p>
           </div>
         </div>
