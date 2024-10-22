@@ -14,7 +14,7 @@ const brandCardDetails = [
     description: "Activate broker",
     bgColor: "#29b2fe",
     linkTo:
-      "https://www.youtube.com/playlist?list=PLN7hBifcGfuQT8G9W_GRoNU-R1uupimXf",
+      "#",
   },
   {
     imgSrc: "/iws-section/3.jpeg",
@@ -22,7 +22,7 @@ const brandCardDetails = [
       "https://live.21lab.co/nanosoft/wp-content/uploads/2018/08/uni-w.svg",
     description: "Enjoy automated trading.",
     bgColor: "#71cbcc",
-    linkTo: "##",
+    linkTo: "#",
   },
 ];
 

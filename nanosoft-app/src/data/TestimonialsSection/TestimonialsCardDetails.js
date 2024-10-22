@@ -9,14 +9,14 @@ const testimonialCardDeatils = [
   {
     name: "Raghav Kaushik",
     state: "Sirsa, Haryana",
-    message: `“The Brain Auto Tech team guided me on how I can use their software easily. I work in an MNC from 9 to 5. While working, I can easily trade hassle-free. Thank you so much for these amazing services.”`,
+    message: `“The Trades with Algo team guided me on how I can use their software easily. I work in an MNC from 9 to 5. While working, I can easily trade hassle-free. Thank you so much for these amazing services.”`,
     imgSrc:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Eo_circle_pink_white_letter-r.svg/1024px-Eo_circle_pink_white_letter-r.svg.png?20200417165546",
   },
   {
     name: "Sahil Shekh",
     state: "CP, Delhi",
-    message: `“I have been very happy with Brain Auto Tech Services. I learned so many things about trading. Also, their automated trading feature is superb. It feels like a seamless experience as a user.”`,
+    message: `“I have been very happy with Trades with Algo Services. I learned so many things about trading. Also, their automated trading feature is superb. It feels like a seamless experience as a user.”`,
     imgSrc:
       "https://lh3.googleusercontent.com/a-/ALV-UjX_vkeZ1qTbQz7os9i85XxgGWAzYLbN6CYSuRUXHp0-_Ph8_eK9=w72-h72-p-rp-mo-br100",
   },

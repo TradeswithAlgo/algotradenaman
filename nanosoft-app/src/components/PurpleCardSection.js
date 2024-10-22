@@ -140,7 +140,7 @@ function PurpleCardSection({ setLoading, indexLoad }) {
             <a
               href="/algo-services/"
               target="_blank"
-              title="Brain Auto Tech Docs"
+              title="Docs"
             >
               Explore our automated services.
             </a>

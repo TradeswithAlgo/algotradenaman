@@ -17,22 +17,9 @@ import {
 const Header1 = () => {
   return (
     <>
-      {/* Headline Announcement - Fixed at the top with scrolling text */}
-      <div className="bg-yellow-300 w-full z-[101] fixed top-0 h-[40px] flex items-center justify-center overflow-hidden">
-        {/* Use flexbox here for proper vertical centering */}
-        <div className="relative h-full w-full flex items-center">
-          <div className="absolute flex items-center animate-scroll">
-            <p className="text-lg font-bold whitespace-nowrap">
-            ⚠️ Please make payments only to bank accounts with the name "Trades with Algo"—whether through barcode, UPI, or bank details. Ensure the company name is present.  ⚠️ Important: Beware of scammers! Only trust official communications and payment details from Trades with Algo.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Navbar - Fixed just below the announcement */}
       <Popover
         className={
-          "flex items-center border-b-2 w-[100%] px-6 bg-white py-2 h-20 text-black z-[100] fixed top-[40px] shadow-2xl bg-opacity-100 bg-blur"
+          "flex items-center border-b-2 w-[100%] px-6 bg-white py-2 h-20 text-black z-[100] fixed top-[0px] shadow-2xl bg-opacity-100 bg-blur"
         }
       >
         <a href="/" className="cursor-pointer outline-none border-none">
@@ -294,7 +281,7 @@ const Header1 = () => {
       </Popover>
 
       {/* Ensure content is not hidden behind the fixed elements */}
-      <div className="mt-[40px]">
+      <div className="mt-[0px]">
         {/* Your sliding cards or other content goes here */}
       </div>
     </>

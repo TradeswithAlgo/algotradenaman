@@ -84,9 +84,9 @@ and bug-free. We focus on providing the most secure in-app purchases to ensure t
     imgSrc: "/popup/Partners.jpeg",
   },
   {
-    title: "ISO Certification",
+    title: "Algo Working Explanation",
     description: ``,
-    imgSrc: "",
+    imgSrc: "algowork.jpg",
   },
 ];
 

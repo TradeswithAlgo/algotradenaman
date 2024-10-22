@@ -35,6 +35,10 @@ deployment:
       with algo.png $DEPLOYPATH
     - >-
       /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algowork.jpg
+      $DEPLOYPATH
+    - >-
+      /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/braintechlogo.PNG
       $DEPLOYPATH
     - >-
