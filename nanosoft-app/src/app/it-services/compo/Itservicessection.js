@@ -79,8 +79,8 @@ const Itservicessection = () => {
           </div>
           <p className="text-black pt-6">
             Are you ready to transform your business with our high-end IT
-            services? Contact us to schedule a meeting and discover how Brain
-            Auto Tech can help you achieve your digital goals.
+            services? Contact us to discover how Trades
+            With Algo can help you achieve your digital goals.
           </p>
         </div>
         <div className="w-full card-container md:w-[80%] mx-auto h-auto py-5 flex justify-evenly flex-row items-center flex-wrap">

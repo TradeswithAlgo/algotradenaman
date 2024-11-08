@@ -142,9 +142,9 @@ function Header() {
           <Link color="foreground" href="#">
             Contact
             </Link>
-          <Link href="https://brainautotech.gitbook.io/intro/" target="_blank" rel="noopener noreferrer" className="textdesign">
+          {/* <Link href="https://tradeswithalgo.com/algo-services/algo-trading/" target="_blank" rel="noopener noreferrer" className="textdesign">
             Help Center
-          </Link>
+          </Link> */}
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">

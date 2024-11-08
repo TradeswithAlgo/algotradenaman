@@ -76,6 +76,9 @@ const Header1 = () => {
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
+            <a href="/pricing" className="textdesign hover:cursor-pointer">
+              Pricing
+            </a>
             <a href="/payment" className="textdesign hover:cursor-pointer">
               Payment
             </a>
@@ -213,6 +216,12 @@ const Header1 = () => {
                       className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
                     >
                       Payment
+                    </a>
+                    <a
+                      href="/pricing"
+                      className="focus:outline-none focus:ring-2 !text-[#060606] focus:ring-inset focus:ring-gray-500 px-2"
+                    >
+                      Pricing
                     </a>
                     <a
                       href="/disclaimer"

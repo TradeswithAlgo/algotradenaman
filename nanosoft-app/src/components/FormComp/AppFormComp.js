@@ -34,7 +34,7 @@ function AppFormComp() {
                 <span className="text-red-500 font-bold fa">
                   <FontAwesomeIcon icon={faPhone} />
                 </span>{" "}
-                <a href="tel:9179042673"> : +91 8827772751</a>
+                <a href="tel:9179042673"> : +91 8827043988</a>
               </li>
               <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
                 <a href="mailto:info@tradeswithalgo.com">

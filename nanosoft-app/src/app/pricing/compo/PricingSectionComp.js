@@ -5,49 +5,50 @@ import PricingCard from "./PricingComp/PaymentCard";
 const paymentData = {
   basic: {
     monthly: {
-      price: "6,000",
+      price: "4,999",
       planData: [
-        { text: "2 STRATEGIES" },
-        { text: "NO OF Accounts 2" },
+        { text: "1 STRATEGY" },
+        { text: "NO OF Accounts 1" },
         { text: "LIMITED SIGNALS" },
         { text: "FULLY AUTOMATIC" },
         { text: "CALL AND TEXT SUPPORT" },
         { text: "1000 Rs.Maintenance Charges For Every Month" },
       ],
     },
-    quarterly: { price: "15,000", planData: null },
-    halfYearly: { price: "25,000", planData: null },
+    quarterly: { price: "11,999", planData: null },
+    halfYearly: { price: "24,999", planData: null },
   },
   premium: {
     monthly: {
-      price: "15,000",
+      price: "10,999",
       planData: [
-        { text: "5 STRATEGIES" },
-        { text: "NO OF Accounts 4" },
+        { text: "2 STRATEGIES" },
+        { text: "NO OF Accounts 2" },
         { text: "3-10 SIGNALS PER DAY" },
         { text: "FULLY AUTOMATIC" },
         { text: "CALL AND TEXT SUPPORT" },
         { text: "1000 Rs.Maintenance Charges For Every Month" },
       ],
     },
-    quarterly: { price: "44,000", planData: null },
-    halfYearly: { price: "77,000", planData: null },
+    quarterly: { price: "24,999", planData: null },
+    halfYearly: { price: "49,999", planData: null },
   },
   hni: {
     monthly: {
-      price: "30,000",
+      price: "19,999",
       planData: [
-        { text: "7-8 STRATEGIES" },
+        { text: "3 STRATEGIES" },
         { text: "NO OF Accounts 5" },
         { text: "4-10 SIGNALS PER DAY" },
         { text: "MULTIPLE Categories" },
+        { text: "Stock Options" },
         { text: "FULLY AUTOMATIC" },
         { text: "CALL AND TEXT SUPPORT" },
         { text: "1000 Rs.Maintenance Charges For Every Month" },
       ],
     },
-    quarterly: { price: "70,000", planData: null },
-    halfYearly: { price: "100,000", planData: null },
+    quarterly: { price: "49,999", planData: null },
+    halfYearly: { price: "99,999", planData: null },
   },
   stockOptions: {
     monthly: {
@@ -132,7 +133,7 @@ const PricingSectionComp = () => {
             } font-bold`}
             onClick={() => setSelectPricing("stockOptions")}
           >
-            STOCK OPTIONS
+            {/* STOCK OPTIONS
           </button>
           <button
             className={`block text-lg ${
@@ -140,7 +141,7 @@ const PricingSectionComp = () => {
             } font-bold`}
             onClick={() => setSelectPricing("equityFuture")}
           >
-            {`EQUITY & FUTURE`}
+            {`EQUITY & FUTURE`} */}
           </button>
         </div>
         <h2 className="text-4xl text-black py-8 text-center font-semibold">
