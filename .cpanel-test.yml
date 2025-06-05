@@ -15,6 +15,10 @@ deployment:
       $DEPLOYPATH
     - >-
       /bin/cp
+      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/ISO.JPG
+      $DEPLOYPATH
+    - >-
+      /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Textonly.png
       $DEPLOYPATH
     - >-
@@ -33,14 +37,6 @@ deployment:
       /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/Trades
       with algo.png $DEPLOYPATH
-    - >-
-      /bin/cp
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/algowork.jpg
-      $DEPLOYPATH
-    - >-
-      /bin/cp
-      /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/braintechlogo.PNG
-      $DEPLOYPATH
     - >-
       /bin/cp
       /home/brainautotech/repositories/BrainAutotechProd/compiled-prod-code/favicon.ico

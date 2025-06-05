@@ -157,13 +157,13 @@ function Footer() {
                 Contact Info:
               </div>
               <div className="font-semibold pt-[20px] text-[#060606]">
-                📍 Scheme No. 136, Brilliant Convention Centre, <br />
+                📍 Diamond Colony, Janjeerbala Square, <br />
                 Indore, Madhya Pradesh, 452010
               </div>
               <div className="text-[#566a8d] pt-[20px]">
                 📞 Phone:{" "}
-                <a className="text-[#0e2b5c]" href="tel:9179042673">
-                  +91 8827043988
+                <a className="text-[#0e2b5c]" href="tel:7898868488">
+                  +91 7898868488
                 </a>{" "}
                 <br></br> 📩 Email:{" "}
                 <a

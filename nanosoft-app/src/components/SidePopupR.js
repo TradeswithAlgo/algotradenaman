@@ -17,7 +17,7 @@ function SidePopup() {
           <div onClick={() => setIsOpen(7)}>
             <div className="lg:py-3 py-1 px-3 lg:px-3  bg-green-400 text-white text-lg lg:text-xl font-semibold
              lg:font-extrabold rounded-t-3xl cursor-pointer duration-300 ease-in-out hover:bg-green-700">
-              How it works?
+              ISO Certificate
             </div>
           </div>
         </div>

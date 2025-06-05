@@ -27,7 +27,7 @@ const Page = () => {
                   <img src="" width={250} className="" />
                 </div>
                 <p className="p-[12px] font-medium">
-                  <span className=" font-bold">Bank Name:-</span> ##############
+                  <span className=" font-bold">Bank Name:-</span> HDFC Bank
                 </p>
                 <p className="p-[12px] font-medium">
                   <span className=" font-bold">Account Name :-</span>{" "}
@@ -35,10 +35,10 @@ const Page = () => {
                 </p>
                 <p className="p-[12px] font-medium">
                   <span className=" font-bold">Account Number :- </span>
-                  ##############
+                  50200107992355
                 </p>
                 <p className="p-[12px] font-medium">
-                  <span className=" font-bold">IFSC Code :-</span> ##############
+                  <span className=" font-bold">IFSC Code :-</span> HDFC0000281
                 </p>
               </div>
               <div className="shadow-xl w-full p-[30px] rounded-xl mt-[50px] hover:-translate-y-3 transition-transform duration-300 ease-out">
@@ -46,7 +46,7 @@ const Page = () => {
               </div>
             </div>
             <div className="shadow-2xl p-[20px] w-fit h-fit rounded-2xl mt-[50px] xl:mt-0 hover:-translate-y-3 transition-transform duration-300 ease-out">
-              <img src="" width={450} />
+              <img src="https://i.pinimg.com/736x/1e/b4/93/1eb49385575175ab7f541d7000273a1b.jpg" width={450} />
             </div>
           </div>
         </div>
