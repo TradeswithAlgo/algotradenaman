@@ -248,7 +248,7 @@ function FormComp() {
                     checkboxes.equality_strategy === true && "text-[#414347]"
                   }`}
                 >
-                  Equity Strategy
+                  MCX Bullion Plan
                 </span>
               </label>
               <label>
@@ -263,7 +263,7 @@ function FormComp() {
                     checkboxes.future_strategy === true && "text-[#414347]"
                   }`}
                 >
-                  Future Strategy
+                  MCX Energy/Metal Plan
                 </span>
               </label>
             </div>
