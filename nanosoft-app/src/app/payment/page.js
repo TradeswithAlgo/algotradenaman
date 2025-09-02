@@ -35,7 +35,7 @@ const Page = () => {
                 </p>
                 <p className="p-[12px] font-medium">
                   <span className=" font-bold">Account Number :- </span>
-                  50200105354995
+                  50200107992355
                 </p>
                 <p className="p-[12px] font-medium">
                   <span className=" font-bold">IFSC Code :-</span> HDFC0000281
