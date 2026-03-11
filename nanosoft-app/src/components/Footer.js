@@ -162,8 +162,8 @@ function Footer() {
               </div>
               <div className="text-[#566a8d] pt-[20px]">
                 📞 Phone:{" "}
-                <a className="text-[#0e2b5c]" href="tel:7898868488">
-                  +91 7898868488
+                <a className="text-[#0e2b5c]" href="tel:9993898621">
+                  +91 9993898621
                 </a>{" "}
                 <br></br> 📩 Email:{" "}
                 <a

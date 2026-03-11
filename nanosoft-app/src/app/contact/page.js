@@ -48,7 +48,7 @@ const Page = () => {
                 <span className="text-red-500 font-bold fa">
                   <FontAwesomeIcon icon={faPhone} />
                 </span>{" "}
-                <a href="tel:7898868488"> : +91 7898868488</a>
+                <a href="tel:9993898621"> : +91 9993898621</a>
               </li>
               <li className="text-left text-[#555555]  p1 pt-[30px] font-medium ">
                 <a href="mailto:info@tradeswithalgo.com">
