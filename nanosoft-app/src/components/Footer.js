@@ -178,7 +178,7 @@ function Footer() {
         </div>
 
         <div className="pt-7 flex justify-center text-gray-400 pb-4 font-extralight hover:underline lg:text-[12px] text-[1.5vh]">
-          Trades with Algo &#169;2024-25. All Rights Reserved
+          Trades with Algo &#169;2025-26. All Rights Reserved
         </div>
       </footer>
     </>
